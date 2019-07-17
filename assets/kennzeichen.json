@@ -1,0 +1,164 @@
+{
+  "A": {
+    "names": ["Stadt Augsburg", "Landkreis Augsburg"],
+    "from": "Augsburg",
+    "state": "BY"
+  },
+  "AA": {
+    "names": ["Ostalbkreis"],
+    "from": "Aalen",
+    "state": "BW"
+  },
+  "AB": {
+    "names": ["Stadt Aschaffenburg", "Landkreis Aschaffenburg"],
+    "from": "Aschaffenburg",
+    "state": "BY"
+  },
+  "ABG": {
+    "names": ["Landkreis Altenburger Land"],
+    "from": "Altenburg",
+    "state": "TH"
+  },
+  "ABI": {
+    "names": ["Landkreis Anhalt-Bitterfeld"],
+    "from": "Anhalt, Bitterfeld",
+    "state": "ST"
+  },
+  "AC": {
+    "names": ["Städteregion Aachen"],
+    "from": "Aachen",
+    "state": "NW"
+  },
+  "AE": {
+    "names": ["Vogtlandkreis"],
+    "from": "Auerbach",
+    "state": "SA"
+  },
+  "AH": {
+    "names": ["Kreis Borken"],
+    "from": "Ahaus",
+    "state": "NW"
+  },
+  "AIB": {
+    "names": ["Landkreis München", "Landkreis Rosenheim"],
+    "from": "Aibling",
+    "state": "BY"
+  },
+  "AIC": {
+    "names": ["Landkreis Aichach-Friedberg"],
+    "from": "Aichach",
+    "state": "BY"
+  },
+  "AK": {
+    "names": ["Landkreis Altenkirchen (Westerwald)"],
+    "from": "Altenkirchen",
+    "state": "RP"
+  },
+  "ALF": {
+    "names": ["Landkreis Hildesheim"],
+    "from": "Alfeld",
+    "state": "NI"
+  },
+  "ALZ": {
+    "names": ["Landkreis Aschaffenburg"],
+    "from": "Alzenau",
+    "state": "BY"
+  },
+  "AM": {
+    "names": ["Stadt Amberg"],
+    "from": "Amberg",
+    "state": "BY"
+  },
+  "AN": {
+    "names": ["Stadt Ansbach", "Landkreis Ansbach"],
+    "from": "Ansbach",
+    "state": "BY"
+  },
+  "ANA": {
+    "names": ["Erzgebirgskreis"],
+    "from": "Annaberg",
+    "state": "SA"
+  },
+  "ANG": {
+    "names": ["Landkreis Uckermark"],
+    "from": "Angermünde",
+    "state": "BB"
+  },
+  "ANK": {
+    "names": ["Landkreis Vorpommern-Greifswald (ohne die Stadt Greifswald)"],
+    "from": "Anklam",
+    "state": "MV"
+  },
+  "AÖ": {
+    "names": ["Landkreis Altötting"],
+    "from": "Altötting",
+    "state": "BY"
+  },
+  "AP": {
+    "names": ["Landkreis Weimarer Land"],
+    "from": "Apolda",
+    "state": "TH"
+  },
+  "APD": {
+    "names": ["Landkreis Weimarer Land"],
+    "from": "Apolda",
+    "state": "TH"
+  },
+  "ARN": {
+    "names": ["Ilm-Kreis"],
+    "from": "Arnstadt",
+    "state": "TH"
+  },
+  "ART": {
+    "names": ["Kyffhäuserkreis"],
+    "from": "Artern",
+    "state": "TH"
+  },
+  "AS": {
+    "names": ["Landkreis Amberg-Sulzbach"],
+    "from": "Amberg, Sulzbach",
+    "state": "BY"
+  },
+  "ASL": {
+    "names": ["Salzlandkreis"],
+    "from": "Aschersleben",
+    "state": "ST"
+  },
+  "ASZ": {
+    "names": ["Erzgebirgskreis"],
+    "from": "Aue, Schwarzenberg",
+    "state": "SA"
+  },
+  "AT": {
+    "names": [
+      "Landkreis Mecklenburgische Seenplatte ohne die Stadt Neubrandenburg"
+    ],
+    "from": "Altentreptow",
+    "state": "MV"
+  },
+  "AU": {
+    "names": ["Erzgebirgskreis"],
+    "from": "Aue",
+    "state": "SA"
+  },
+  "AUR": {
+    "names": ["Landkreis Aurich"],
+    "from": "Aurich",
+    "state": "NI"
+  },
+  "AW": {
+    "names": ["Landkreis Ahrweiler"],
+    "from": "Ahrweiler",
+    "state": "RP"
+  },
+  "AZ": {
+    "names": ["Landkreis Alzey-Worms"],
+    "from": "Alzey",
+    "state": "RP"
+  },
+  "AZE": {
+    "names": ["Landkreis Anhalt-Bitterfeld"],
+    "from": "Anhalt-Zerbst",
+    "state": "ST"
+  }
+}
