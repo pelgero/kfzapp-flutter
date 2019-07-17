@@ -28,25 +28,32 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String currentPlate = "";
+  Location currentLocation;
+  String currentState;
 
   Map<String, Location> plates = {};
   Map<String, String> states = {};
 
   _MyHomePageState() {
-    _loadPlates("assets/kennzeichen.json");
+    _loadPlates("assets/plates.json");
     _loadStates("assets/states.json");
   }
 
   void _changePlateNr(String plateNr) {
     setState(() {
-      this.currentPlate = _findPlate(plateNr);
+      this.currentLocation = _findLocation(plateNr);
+      this.currentState =
+          this.currentLocation != null ? _findState(currentLocation.state) : "";
     });
   }
 
-  String _findPlate(String plateNr) {
-    Location location = plates[plateNr];
-    return location != null ? location.names.join(" und \n") : "";
+  Location _findLocation(String plateNr) {
+    return plates[plateNr];
+  }
+
+  String _findState(String stateKy) {
+    String state = states[stateKy];
+    return state != null ? state : "";
   }
 
   void _loadPlates(String asset) {
@@ -90,6 +97,10 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Widget buildContent() {
+    String text =
+        (currentLocation != null ? currentLocation.names.join(" und ") : "") +
+            (currentLocation != null ? "\n($currentState)" : "");
+
     return Container(
       margin: const EdgeInsets.all(50.0),
       child: Column(
@@ -114,11 +125,9 @@ class _MyHomePageState extends State<MyHomePage> {
               )),
           SizedBox(height: 20),
           Text(
-            currentPlate,
+            text,
             textAlign: TextAlign.center,
-            style: TextStyle(
-                fontSize:
-                    currentPlate != null && currentPlate.length > 25 ? 17 : 20),
+            style: TextStyle(fontSize: text.length > 25 ? 17 : 20),
           )
         ],
       ),

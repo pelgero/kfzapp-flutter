@@ -32,7 +32,7 @@
   "AE": {
     "names": ["Vogtlandkreis"],
     "from": "Auerbach",
-    "state": "SA"
+    "state": "SN"
   },
   "AH": {
     "names": ["Kreis Borken"],
@@ -77,7 +77,7 @@
   "ANA": {
     "names": ["Erzgebirgskreis"],
     "from": "Annaberg",
-    "state": "SA"
+    "state": "SN"
   },
   "ANG": {
     "names": ["Landkreis Uckermark"],
@@ -127,7 +127,7 @@
   "ASZ": {
     "names": ["Erzgebirgskreis"],
     "from": "Aue, Schwarzenberg",
-    "state": "SA"
+    "state": "SN"
   },
   "AT": {
     "names": [
@@ -139,7 +139,7 @@
   "AU": {
     "names": ["Erzgebirgskreis"],
     "from": "Aue",
-    "state": "SA"
+    "state": "SN"
   },
   "AUR": {
     "names": ["Landkreis Aurich"],
