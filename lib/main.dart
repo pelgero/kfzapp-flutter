@@ -28,10 +28,10 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  Location currentLocation;
-  String currentState;
+  // There may exist multiple plates per PlateId (Bennzeichen), e.g. "BK" has two different plates
+  List<Plate> currentPlates = [];
 
-  Map<String, Location> plates = {};
+  List<Plate> plates = [];
   Map<String, String> states = {};
 
   _MyHomePageState() {
@@ -39,27 +39,28 @@ class _MyHomePageState extends State<MyHomePage> {
     _loadStates("assets/states.json");
   }
 
-  void _changePlateNr(String plateNr) {
+  void _changePlateId(String plateId) {
+    print("Change $plateId");
     setState(() {
-      this.currentLocation = _findLocation(plateNr);
-      this.currentState =
-          this.currentLocation != null ? _findState(currentLocation.state) : "";
+      this.currentPlates = _findPlates(plateId);
+      print("plates: ");
+      print(this.currentPlates);
     });
   }
 
-  Location _findLocation(String plateNr) {
-    return plates[plateNr];
+  List<Plate> _findPlates(String plateId) {
+    return this.plates.where((plate) => plate.id == plateId).toList();
   }
 
-  String _findState(String stateKy) {
+  String _findRegion(String stateKy) {
     String state = states[stateKy];
     return state != null ? state : "";
   }
 
   void _loadPlates(String asset) {
     _loadJson(asset, (jsonPlates) {
-      this.plates = Map.from(jsonDecode(jsonPlates).map((key, value) {
-        return MapEntry(key, Location.from(value));
+      this.plates = List<Plate>.from(jsonDecode(jsonPlates).map((jsonPlate) {
+        return Plate.from(jsonPlate);
       }));
     }, (err) => print(err));
   }
@@ -88,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           children: <Widget>[
             Expanded(
-              child: buildContent(),
+              child: buildContent(this.currentPlates),
             ),
           ],
         ),
@@ -96,10 +97,10 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  Widget buildContent() {
-    String text =
-        (currentLocation != null ? currentLocation.names.join(" und ") : "") +
-            (currentLocation != null ? "\n($currentState)" : "");
+  Widget buildContent(List<Plate> plates) {
+    String text = currentPlates.map((plate) {
+      return '${plate.origin} (${plate.name}, ${_findRegion(plate.stateId)})';
+    }).join("\n");
 
     return Container(
       margin: const EdgeInsets.all(50.0),
@@ -120,7 +121,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 textAlign: TextAlign.center,
                 style: TextStyle(decoration: TextDecoration.none, fontSize: 30),
                 onChanged: (value) {
-                  this._changePlateNr(value.toUpperCase());
+                  this._changePlateId(value.toUpperCase());
                 },
               )),
           SizedBox(height: 20),
@@ -135,18 +136,20 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-class Location {
-  final List<String> names;
-  final String from;
-  final String state;
+class Plate {
+  final String id;
+  final String stateId;
+  final String origin;
+  final String name;
+  final String extra;
 
-  Location(this.names, this.from, this.state);
-
-  Location.from(Map<String, dynamic> json)
-      : this(List<String>.from(json["names"]), json["from"], json["state"]);
+  Plate(this.id, this.stateId, this.origin, this.name, this.extra);
+  Plate.from(Map<String, dynamic> json)
+      : this(json["id"], json["stateId"], json["origin"], json["name"],
+            json["name_extra"]);
 
   @override
   String toString() {
-    return '${names.join(" und ")}, $state, $from';
+    return '$id: $origin ($name)';
   }
 }

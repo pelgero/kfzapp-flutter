@@ -1,164 +1,5595 @@
-{
-  "A": {
-    "names": ["Stadt Augsburg", "Landkreis Augsburg"],
-    "from": "Augsburg",
-    "state": "BY"
+[
+  {
+    "id": "A",
+    "stateId": "BY",
+    "origin": "Augsburg",
+    "name": "Stadt Augsburg",
+    "name_extra": ""
   },
-  "AA": {
-    "names": ["Ostalbkreis"],
-    "from": "Aalen",
-    "state": "BW"
+  {
+    "id": "A",
+    "stateId": "BY",
+    "origin": "Augsburg",
+    "name": "Landkreis Augsburg",
+    "name_extra": ""
   },
-  "AB": {
-    "names": ["Stadt Aschaffenburg", "Landkreis Aschaffenburg"],
-    "from": "Aschaffenburg",
-    "state": "BY"
+  {
+    "id": "AA",
+    "stateId": "BW",
+    "origin": "Aalen",
+    "name": "Ostalbkreis",
+    "name_extra": ""
   },
-  "ABG": {
-    "names": ["Landkreis Altenburger Land"],
-    "from": "Altenburg",
-    "state": "TH"
+  {
+    "id": "AB",
+    "stateId": "BY",
+    "origin": "Aschaffenburg",
+    "name": "Stadt Aschaffenburg",
+    "name_extra": ""
   },
-  "ABI": {
-    "names": ["Landkreis Anhalt-Bitterfeld"],
-    "from": "Anhalt, Bitterfeld",
-    "state": "ST"
+  {
+    "id": "AB",
+    "stateId": "BY",
+    "origin": "Aschaffenburg",
+    "name": "Landkreis Aschaffenburg",
+    "name_extra": ""
   },
-  "AC": {
-    "names": ["Städteregion Aachen"],
-    "from": "Aachen",
-    "state": "NW"
+  {
+    "id": "ABG",
+    "stateId": "TH",
+    "origin": "Altenburg",
+    "name": "Landkreis Altenburger Land",
+    "name_extra": ""
   },
-  "AE": {
-    "names": ["Vogtlandkreis"],
-    "from": "Auerbach",
-    "state": "SN"
+  {
+    "id": "ABI",
+    "stateId": "ST",
+    "origin": "Anhalt, bitterfeld",
+    "name": "Landkreis Anhalt-Bitterfeld",
+    "name_extra": ""
   },
-  "AH": {
-    "names": ["Kreis Borken"],
-    "from": "Ahaus",
-    "state": "NW"
+  {
+    "id": "AC",
+    "stateId": "NW",
+    "origin": "Aachen",
+    "name": "Städteregion Aachen",
+    "name_extra": ""
   },
-  "AIB": {
-    "names": ["Landkreis München", "Landkreis Rosenheim"],
-    "from": "Aibling",
-    "state": "BY"
+  {
+    "id": "AE",
+    "stateId": "SN",
+    "origin": "Auerbach",
+    "name": "Vogtlandkreis",
+    "name_extra": ""
   },
-  "AIC": {
-    "names": ["Landkreis Aichach-Friedberg"],
-    "from": "Aichach",
-    "state": "BY"
+  {
+    "id": "AH",
+    "stateId": "NW",
+    "origin": "Ahaus",
+    "name": "Kreis Borken",
+    "name_extra": ""
   },
-  "AK": {
-    "names": ["Landkreis Altenkirchen (Westerwald)"],
-    "from": "Altenkirchen",
-    "state": "RP"
+  {
+    "id": "AIB",
+    "stateId": "BY",
+    "origin": "Aibling",
+    "name": "Landkreis München",
+    "name_extra": ""
   },
-  "ALF": {
-    "names": ["Landkreis Hildesheim"],
-    "from": "Alfeld",
-    "state": "NI"
+  {
+    "id": "AIB",
+    "stateId": "BY",
+    "origin": "Aibling",
+    "name": "Landkreis Rosenheim",
+    "name_extra": ""
   },
-  "ALZ": {
-    "names": ["Landkreis Aschaffenburg"],
-    "from": "Alzenau",
-    "state": "BY"
+  {
+    "id": "AIC",
+    "stateId": "BY",
+    "origin": "Aichach",
+    "name": "Landkreis Aichach-Friedberg",
+    "name_extra": ""
   },
-  "AM": {
-    "names": ["Stadt Amberg"],
-    "from": "Amberg",
-    "state": "BY"
+  {
+    "id": "AK",
+    "stateId": "RP",
+    "origin": "Altenkirchen",
+    "name": "Landkreis Altenkirchen (Westerwald)",
+    "name_extra": ""
   },
-  "AN": {
-    "names": ["Stadt Ansbach", "Landkreis Ansbach"],
-    "from": "Ansbach",
-    "state": "BY"
+  {
+    "id": "ALF",
+    "stateId": "NI",
+    "origin": "Alfeld",
+    "name": "Landkreis Hildesheim",
+    "name_extra": ""
   },
-  "ANA": {
-    "names": ["Erzgebirgskreis"],
-    "from": "Annaberg",
-    "state": "SN"
+  {
+    "id": "ALZ",
+    "stateId": "BY",
+    "origin": "Alzenau",
+    "name": "Landkreis Aschaffenburg",
+    "name_extra": ""
   },
-  "ANG": {
-    "names": ["Landkreis Uckermark"],
-    "from": "Angermünde",
-    "state": "BB"
+  {
+    "id": "AM",
+    "stateId": "BY",
+    "origin": "Amberg",
+    "name": "Stadt Amberg",
+    "name_extra": ""
   },
-  "ANK": {
-    "names": ["Landkreis Vorpommern-Greifswald (ohne die Stadt Greifswald)"],
-    "from": "Anklam",
-    "state": "MV"
+  {
+    "id": "AN",
+    "stateId": "BY",
+    "origin": "Ansbach",
+    "name": "Stadt Ansbach",
+    "name_extra": ""
   },
-  "AÖ": {
-    "names": ["Landkreis Altötting"],
-    "from": "Altötting",
-    "state": "BY"
+  {
+    "id": "AN",
+    "stateId": "BY",
+    "origin": "Ansbach",
+    "name": "Landkreis Ansbach",
+    "name_extra": ""
   },
-  "AP": {
-    "names": ["Landkreis Weimarer Land"],
-    "from": "Apolda",
-    "state": "TH"
+  {
+    "id": "ANA",
+    "stateId": "SN",
+    "origin": "Annaberg",
+    "name": "Erzgebirgskreis",
+    "name_extra": ""
   },
-  "APD": {
-    "names": ["Landkreis Weimarer Land"],
-    "from": "Apolda",
-    "state": "TH"
+  {
+    "id": "ANG",
+    "stateId": "BB",
+    "origin": "Angermünde",
+    "name": "Landkreis Uckermark",
+    "name_extra": ""
   },
-  "ARN": {
-    "names": ["Ilm-Kreis"],
-    "from": "Arnstadt",
-    "state": "TH"
+  {
+    "id": "ANK",
+    "stateId": "MV",
+    "origin": "Anklam",
+    "name": "Landkreis Vorpommern-Greifswald",
+    "name_extra": "ohne die Stadt Greifswald"
   },
-  "ART": {
-    "names": ["Kyffhäuserkreis"],
-    "from": "Artern",
-    "state": "TH"
+  {
+    "id": "AÖ",
+    "stateId": "BY",
+    "origin": "Altötting",
+    "name": "Landkreis Altötting",
+    "name_extra": ""
   },
-  "AS": {
-    "names": ["Landkreis Amberg-Sulzbach"],
-    "from": "Amberg, Sulzbach",
-    "state": "BY"
+  {
+    "id": "AP",
+    "stateId": "TH",
+    "origin": "Apolda",
+    "name": "Landkreis Weimarer Land",
+    "name_extra": ""
   },
-  "ASL": {
-    "names": ["Salzlandkreis"],
-    "from": "Aschersleben",
-    "state": "ST"
+  {
+    "id": "APD",
+    "stateId": "TH",
+    "origin": "Apolda",
+    "name": "Landkreis Weimarer Land",
+    "name_extra": ""
   },
-  "ASZ": {
-    "names": ["Erzgebirgskreis"],
-    "from": "Aue, Schwarzenberg",
-    "state": "SN"
+  {
+    "id": "ARN",
+    "stateId": "TH",
+    "origin": "Arnstadt",
+    "name": "Ilm-Kreis",
+    "name_extra": ""
   },
-  "AT": {
-    "names": [
-      "Landkreis Mecklenburgische Seenplatte ohne die Stadt Neubrandenburg"
-    ],
-    "from": "Altentreptow",
-    "state": "MV"
+  {
+    "id": "ART",
+    "stateId": "TH",
+    "origin": "Artern",
+    "name": "Kyffhäuserkreis",
+    "name_extra": ""
   },
-  "AU": {
-    "names": ["Erzgebirgskreis"],
-    "from": "Aue",
-    "state": "SN"
+  {
+    "id": "AS",
+    "stateId": "BY",
+    "origin": "Amberg, sulzbach",
+    "name": "Landkreis Amberg-Sulzbach",
+    "name_extra": ""
   },
-  "AUR": {
-    "names": ["Landkreis Aurich"],
-    "from": "Aurich",
-    "state": "NI"
+  {
+    "id": "ASL",
+    "stateId": "ST",
+    "origin": "Aschersleben",
+    "name": "Salzlandkreis",
+    "name_extra": ""
   },
-  "AW": {
-    "names": ["Landkreis Ahrweiler"],
-    "from": "Ahrweiler",
-    "state": "RP"
+  {
+    "id": "ASZ",
+    "stateId": "SN",
+    "origin": "Aue, schwarzenberg",
+    "name": "Erzgebirgskreis",
+    "name_extra": ""
   },
-  "AZ": {
-    "names": ["Landkreis Alzey-Worms"],
-    "from": "Alzey",
-    "state": "RP"
+  {
+    "id": "AT",
+    "stateId": "MV",
+    "origin": "Altentreptow",
+    "name": "Landkreis Mecklenburgische Seenplatte",
+    "name_extra": "ohne die Stadt Neubrandenburg"
   },
-  "AZE": {
-    "names": ["Landkreis Anhalt-Bitterfeld"],
-    "from": "Anhalt-Zerbst",
-    "state": "ST"
+  {
+    "id": "AU",
+    "stateId": "SN",
+    "origin": "Aue",
+    "name": "Erzgebirgskreis",
+    "name_extra": ""
+  },
+  {
+    "id": "AUR",
+    "stateId": "NI",
+    "origin": "Aurich",
+    "name": "Landkreis Aurich",
+    "name_extra": ""
+  },
+  {
+    "id": "AW",
+    "stateId": "RP",
+    "origin": "Ahrweiler",
+    "name": "Landkreis Ahrweiler",
+    "name_extra": ""
+  },
+  {
+    "id": "AZ",
+    "stateId": "RP",
+    "origin": "Alzey",
+    "name": "Landkreis Alzey-Worms",
+    "name_extra": ""
+  },
+  {
+    "id": "AZE",
+    "stateId": "ST",
+    "origin": "Anhalt-zerbst",
+    "name": "Landkreis Anhalt-Bitterfeld",
+    "name_extra": ""
+  },
+  {
+    "id": "B",
+    "stateId": "BE",
+    "origin": "Berlin",
+    "name": "Stadt Berlin",
+    "name_extra": ""
+  },
+  {
+    "id": "B",
+    "stateId": "BE",
+    "origin": "Berlin",
+    "name": "Berlin",
+    "name_extra": "Senat und Abgeordnetenhaus"
+  },
+  {
+    "id": "B",
+    "stateId": "BE",
+    "origin": "Berlin",
+    "name": "Diplomaten",
+    "name_extra": ""
+  },
+  {
+    "id": "BA",
+    "stateId": "BY",
+    "origin": "Bamberg",
+    "name": "Stadt Bamberg",
+    "name_extra": ""
+  },
+  {
+    "id": "BA",
+    "stateId": "BY",
+    "origin": "Bamberg",
+    "name": "Landkreis Bamberg",
+    "name_extra": ""
+  },
+  {
+    "id": "BAD",
+    "stateId": "BW",
+    "origin": "Baden-baden",
+    "name": "Stadt Baden-Baden",
+    "name_extra": ""
+  },
+  {
+    "id": "BAR",
+    "stateId": "BB",
+    "origin": "Barnim",
+    "name": "Landkreis Barnim",
+    "name_extra": ""
+  },
+  {
+    "id": "BB",
+    "stateId": "BW",
+    "origin": "Böblingen",
+    "name": "Landkreis Böblingen",
+    "name_extra": ""
+  },
+  {
+    "id": "BBG",
+    "stateId": "ST",
+    "origin": "Bernburg",
+    "name": "Salzlandkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "BBL",
+    "stateId": "BB",
+    "origin": "Brandenburgische landesregierung",
+    "name": "Brandenburg",
+    "name_extra": "Landesregierung, Landtag und Polizei"
+  },
+  {
+    "id": "BC",
+    "stateId": "BW",
+    "origin": "Biberach",
+    "name": "Landkreis Biberach",
+    "name_extra": ""
+  },
+  {
+    "id": "BCH",
+    "stateId": "BW",
+    "origin": "Buchen",
+    "name": "Neckar-Odenwald-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "BD",
+    "stateId": "BD",
+    "origin": "Bundesdienst",
+    "name": "Bundestag",
+    "name_extra": ""
+  },
+  {
+    "id": "BD",
+    "stateId": "BD",
+    "origin": "Bundesdienst",
+    "name": "Bundesrat",
+    "name_extra": ""
+  },
+  {
+    "id": "BD",
+    "stateId": "BD",
+    "origin": "Bundesdienst",
+    "name": "Bundespräsidialamt",
+    "name_extra": ""
+  },
+  {
+    "id": "BD",
+    "stateId": "BD",
+    "origin": "Bundesdienst",
+    "name": "Bundesregierung",
+    "name_extra": ""
+  },
+  {
+    "id": "BD",
+    "stateId": "BD",
+    "origin": "Bundesdienst",
+    "name": "Bundesministerien",
+    "name_extra": ""
+  },
+  {
+    "id": "BD",
+    "stateId": "BD",
+    "origin": "Bundesdienst",
+    "name": "Bundesfinanzverwaltung",
+    "name_extra": ""
+  },
+  {
+    "id": "BD",
+    "stateId": "BD",
+    "origin": "Bundesdienst",
+    "name": "Bundesverfassungsgericht",
+    "name_extra": ""
+  },
+  {
+    "id": "BE",
+    "stateId": "NW",
+    "origin": "Beckum",
+    "name": "Kreis Warendorf",
+    "name_extra": ""
+  },
+  {
+    "id": "BED",
+    "stateId": "SN",
+    "origin": "Brand-erbisdorf",
+    "name": "Landkreis Mittelsachsen",
+    "name_extra": ""
+  },
+  {
+    "id": "BER",
+    "stateId": "BB",
+    "origin": "Bernau",
+    "name": "Landkreis Barnim",
+    "name_extra": ""
+  },
+  {
+    "id": "BF",
+    "stateId": "NW",
+    "origin": "Burgsteinfurt",
+    "name": "Kreis Steinfurt",
+    "name_extra": ""
+  },
+  {
+    "id": "BGD",
+    "stateId": "BY",
+    "origin": "Berchtesgaden",
+    "name": "Landkreis Berchtesgadener Land",
+    "name_extra": ""
+  },
+  {
+    "id": "BGL",
+    "stateId": "BY",
+    "origin": "Berchtesgadener land",
+    "name": "Landkreis Berchtesgadener Land",
+    "name_extra": ""
+  },
+  {
+    "id": "BH",
+    "stateId": "BW",
+    "origin": "Bühl",
+    "name": "Ortenaukreis",
+    "name_extra": ""
+  },
+  {
+    "id": "BH",
+    "stateId": "BW",
+    "origin": "Bühl",
+    "name": "Landkreis Rastatt",
+    "name_extra": ""
+  },
+  {
+    "id": "BI",
+    "stateId": "NW",
+    "origin": "Bielefeld",
+    "name": "Stadt Bielefeld",
+    "name_extra": ""
+  },
+  {
+    "id": "BID",
+    "stateId": "HE",
+    "origin": "Biedenkopf",
+    "name": "Landkreis Marburg-Biedenkopf",
+    "name_extra": ""
+  },
+  {
+    "id": "BIN",
+    "stateId": "RP",
+    "origin": "Bingen",
+    "name": "Landkreis Mainz-Bingen",
+    "name_extra": ""
+  },
+  {
+    "id": "BIR",
+    "stateId": "RP",
+    "origin": "Birkenfeld",
+    "name": "Landkreis Birkenfeld",
+    "name_extra": ""
+  },
+  {
+    "id": "BIT",
+    "stateId": "RP",
+    "origin": "Bitburg",
+    "name": "Eifelkreis Bitburg-Prüm",
+    "name_extra": ""
+  },
+  {
+    "id": "BIW",
+    "stateId": "SN",
+    "origin": "Bischofswerda",
+    "name": "Landkreis Bautzen",
+    "name_extra": ""
+  },
+  {
+    "id": "BK",
+    "stateId": "BW",
+    "origin": "Backnang",
+    "name": "Rems-Murr-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "BK",
+    "stateId": "BW",
+    "origin": "Backnang",
+    "name": "Landkreis Schwäbisch Hall",
+    "name_extra": ""
+  },
+  {
+    "id": "BK",
+    "stateId": "ST",
+    "origin": "Börde(kreis)",
+    "name": "Landkreis Börde",
+    "name_extra": ""
+  },
+  {
+    "id": "BKS",
+    "stateId": "RP",
+    "origin": "Bernkastel",
+    "name": "Landkreis Bernkastel-Wittlich",
+    "name_extra": ""
+  },
+  {
+    "id": "BL",
+    "stateId": "BW",
+    "origin": "Balingen",
+    "name": "Zollernalbkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "BLB",
+    "stateId": "NW",
+    "origin": "Berleburg",
+    "name": "Kreis Siegen-Wittgenstein",
+    "name_extra": ""
+  },
+  {
+    "id": "BLK",
+    "stateId": "ST",
+    "origin": "Burgenlandkreis",
+    "name": "Burgenlandkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "BM",
+    "stateId": "NW",
+    "origin": "Bergheim",
+    "name": "Rhein-Erft-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "BN",
+    "stateId": "NW",
+    "origin": "Bonn",
+    "name": "Stadt Bonn",
+    "name_extra": ""
+  },
+  {
+    "id": "BN",
+    "stateId": "NW",
+    "origin": "Bonn",
+    "name": "Diplomaten",
+    "name_extra": ""
+  },
+  {
+    "id": "BNA",
+    "stateId": "SN",
+    "origin": "Borna",
+    "name": "Landkreis Leipzig",
+    "name_extra": ""
+  },
+  {
+    "id": "BO",
+    "stateId": "NW",
+    "origin": "Bochum",
+    "name": "Stadt Bochum",
+    "name_extra": ""
+  },
+  {
+    "id": "BÖ",
+    "stateId": "ST",
+    "origin": "Börde",
+    "name": "Landkreis Börde",
+    "name_extra": ""
+  },
+  {
+    "id": "BOG",
+    "stateId": "BY",
+    "origin": "Bogen",
+    "name": "Landkreis Straubing-Bogen",
+    "name_extra": ""
+  },
+  {
+    "id": "BOH",
+    "stateId": "NW",
+    "origin": "Bocholt",
+    "name": "Kreis Borken",
+    "name_extra": ""
+  },
+  {
+    "id": "BOR",
+    "stateId": "NW",
+    "origin": "Borken",
+    "name": "Kreis Borken",
+    "name_extra": ""
+  },
+  {
+    "id": "BOT",
+    "stateId": "NW",
+    "origin": "Bottrop",
+    "name": "Stadt Bottrop",
+    "name_extra": ""
+  },
+  {
+    "id": "BP",
+    "stateId": "BD",
+    "origin": "Bundespolizei",
+    "name": "Bundespolizei",
+    "name_extra": ""
+  },
+  {
+    "id": "BRA",
+    "stateId": "NI",
+    "origin": "Brake",
+    "name": "Landkreis Wesermarsch",
+    "name_extra": ""
+  },
+  {
+    "id": "BRB",
+    "stateId": "BB",
+    "origin": "Brandenburg",
+    "name": "Stadt Brandenburg an der Havel",
+    "name_extra": ""
+  },
+  {
+    "id": "BRG",
+    "stateId": "ST",
+    "origin": "Burg",
+    "name": "Landkreis Jerichower Land",
+    "name_extra": ""
+  },
+  {
+    "id": "BRK",
+    "stateId": "BY",
+    "origin": "Brückenau",
+    "name": "Landkreis Bad Kissingen",
+    "name_extra": ""
+  },
+  {
+    "id": "BRL",
+    "stateId": "NI",
+    "origin": "Braunlage",
+    "name": "Landkreis Goslar",
+    "name_extra": ""
+  },
+  {
+    "id": "BRV",
+    "stateId": "NI",
+    "origin": "Bremervörde",
+    "name": "Landkreis Rotenburg (Wümme)",
+    "name_extra": ""
+  },
+  {
+    "id": "BS",
+    "stateId": "NI",
+    "origin": "Braunschweig",
+    "name": "Stadt Braunschweig",
+    "name_extra": ""
+  },
+  {
+    "id": "BS",
+    "stateId": "NI",
+    "origin": "Braunschweig",
+    "name": "Polizeidirektion Braunschweig",
+    "name_extra": ""
+  },
+  {
+    "id": "BSB",
+    "stateId": "NI",
+    "origin": "Bersenbrück",
+    "name": "Landkreis Osnabrück",
+    "name_extra": ""
+  },
+  {
+    "id": "BSK",
+    "stateId": "BB",
+    "origin": "Beeskow",
+    "name": "Landkreis Oder-Spree",
+    "name_extra": ""
+  },
+  {
+    "id": "BT",
+    "stateId": "BY",
+    "origin": "Bayreuth",
+    "name": "Stadt Bayreuth",
+    "name_extra": ""
+  },
+  {
+    "id": "BT",
+    "stateId": "BY",
+    "origin": "Bayreuth",
+    "name": "Landkreis Bayreuth",
+    "name_extra": ""
+  },
+  {
+    "id": "BTF",
+    "stateId": "ST",
+    "origin": "Bitterfeld",
+    "name": "Landkreis Anhalt-Bitterfeld",
+    "name_extra": ""
+  },
+  {
+    "id": "BÜD",
+    "stateId": "HE",
+    "origin": "Büdingen",
+    "name": "Wetteraukreis",
+    "name_extra": ""
+  },
+  {
+    "id": "BUL",
+    "stateId": "BY",
+    "origin": "Burglengenfeld",
+    "name": "Landkreis Amberg-Sulzbach",
+    "name_extra": ""
+  },
+  {
+    "id": "BUL",
+    "stateId": "BY",
+    "origin": "Burglengenfeld",
+    "name": "Landkreis Schwandorf",
+    "name_extra": ""
+  },
+  {
+    "id": "BÜR",
+    "stateId": "NW",
+    "origin": "Büren",
+    "name": "Kreis Paderborn",
+    "name_extra": ""
+  },
+  {
+    "id": "BÜS",
+    "stateId": "BW",
+    "origin": "Büsingen",
+    "name": "Gemeinde Büsingen am Hochrhein",
+    "name_extra": "Gemeinde im Landkreis Konstanz, deutsche Exklave in der Schweiz"
+  },
+  {
+    "id": "BÜZ",
+    "stateId": "MV",
+    "origin": "Bützow",
+    "name": "Landkreis Rostock",
+    "name_extra": ""
+  },
+  {
+    "id": "BW",
+    "stateId": "BD",
+    "origin": "Bundes-wasserstraßen- und schifffahrtsverwaltung",
+    "name": "Wasserstraßen- und Schifffahrtsverwaltung des Bundes",
+    "name_extra": ""
+  },
+  {
+    "id": "BWL",
+    "stateId": "BW",
+    "origin": "Baden-württembergischer landtag",
+    "name": "Baden-Württemberg",
+    "name_extra": "Landesregierung, Landtag und Polizei"
+  },
+  {
+    "id": "BYL",
+    "stateId": "BY",
+    "origin": "Bayerischer landtag",
+    "name": "Bayern",
+    "name_extra": "Landesregierung und Landtag"
+  },
+  {
+    "id": "BZ",
+    "stateId": "SN",
+    "origin": "Bautzen",
+    "name": "Landkreis Bautzen",
+    "name_extra": ""
+  },
+  {
+    "id": "C",
+    "stateId": "SN",
+    "origin": "Chemnitz",
+    "name": "Stadt Chemnitz",
+    "name_extra": ""
+  },
+  {
+    "id": "CA",
+    "stateId": "BB",
+    "origin": "Calau",
+    "name": "Landkreis Oberspreewald-Lausitz",
+    "name_extra": ""
+  },
+  {
+    "id": "CAS",
+    "stateId": "NW",
+    "origin": "Castrop",
+    "name": "Kreis Recklinghausen",
+    "name_extra": ""
+  },
+  {
+    "id": "CB",
+    "stateId": "BB",
+    "origin": "Cottbus",
+    "name": "Stadt Cottbus",
+    "name_extra": ""
+  },
+  {
+    "id": "CE",
+    "stateId": "NI",
+    "origin": "Celle",
+    "name": "Landkreis Celle",
+    "name_extra": ""
+  },
+  {
+    "id": "CHA",
+    "stateId": "BY",
+    "origin": "Cham",
+    "name": "Landkreis Cham",
+    "name_extra": ""
+  },
+  {
+    "id": "CLP",
+    "stateId": "NI",
+    "origin": "Cloppenburg",
+    "name": "Landkreis Cloppenburg",
+    "name_extra": ""
+  },
+  {
+    "id": "CLZ",
+    "stateId": "NI",
+    "origin": "Clausthal-zellerfeld",
+    "name": "Landkreis Goslar",
+    "name_extra": ""
+  },
+  {
+    "id": "CO",
+    "stateId": "BY",
+    "origin": "Coburg",
+    "name": "Stadt Coburg",
+    "name_extra": ""
+  },
+  {
+    "id": "CO",
+    "stateId": "BY",
+    "origin": "Coburg",
+    "name": "Landkreis Coburg",
+    "name_extra": ""
+  },
+  {
+    "id": "COC",
+    "stateId": "RP",
+    "origin": "Cochem",
+    "name": "Landkreis Cochem-Zell",
+    "name_extra": ""
+  },
+  {
+    "id": "COE",
+    "stateId": "NW",
+    "origin": "Coesfeld",
+    "name": "Kreis Coesfeld",
+    "name_extra": ""
+  },
+  {
+    "id": "CR",
+    "stateId": "BW",
+    "origin": "Crailsheim",
+    "name": "Landkreis Schwäbisch Hall",
+    "name_extra": ""
+  },
+  {
+    "id": "CUX",
+    "stateId": "NI",
+    "origin": "Cuxhaven",
+    "name": "Landkreis Cuxhaven",
+    "name_extra": ""
+  },
+  {
+    "id": "CW",
+    "stateId": "BW",
+    "origin": "Calw",
+    "name": "Landkreis Calw",
+    "name_extra": ""
+  },
+  {
+    "id": "D",
+    "stateId": "NW",
+    "origin": "Düsseldorf",
+    "name": "Stadt Düsseldorf",
+    "name_extra": ""
+  },
+  {
+    "id": "DA",
+    "stateId": "HE",
+    "origin": "Darmstadt",
+    "name": "Landkreis Darmstadt-Dieburg",
+    "name_extra": ""
+  },
+  {
+    "id": "DA",
+    "stateId": "HE",
+    "origin": "Darmstadt",
+    "name": "Stadt Darmstadt",
+    "name_extra": ""
+  },
+  {
+    "id": "DAH",
+    "stateId": "BY",
+    "origin": "Dachau",
+    "name": "Landkreis Dachau",
+    "name_extra": ""
+  },
+  {
+    "id": "DAN",
+    "stateId": "NI",
+    "origin": "Dannenberg",
+    "name": "Landkreis Lüchow-Dannenberg",
+    "name_extra": ""
+  },
+  {
+    "id": "DAU",
+    "stateId": "RP",
+    "origin": "Daun",
+    "name": "Landkreis Vulkaneifel",
+    "name_extra": ""
+  },
+  {
+    "id": "DBR",
+    "stateId": "MV",
+    "origin": "Doberan",
+    "name": "Landkreis Rostock",
+    "name_extra": ""
+  },
+  {
+    "id": "DD",
+    "stateId": "SN",
+    "origin": "Dresden",
+    "name": "Stadt Dresden",
+    "name_extra": ""
+  },
+  {
+    "id": "DD",
+    "stateId": "SN",
+    "origin": "Dresden",
+    "name": "Polizei Sachsen",
+    "name_extra": ""
+  },
+  {
+    "id": "DE",
+    "stateId": "ST",
+    "origin": "Dessau",
+    "name": "Stadt Dessau-Roßlau",
+    "name_extra": ""
+  },
+  {
+    "id": "DEG",
+    "stateId": "BY",
+    "origin": "Deggendorf",
+    "name": "Landkreis Deggendorf",
+    "name_extra": ""
+  },
+  {
+    "id": "DEL",
+    "stateId": "NI",
+    "origin": "Delmenhorst",
+    "name": "Stadt Delmenhorst",
+    "name_extra": ""
+  },
+  {
+    "id": "DGF",
+    "stateId": "BY",
+    "origin": "Dingolfing",
+    "name": "Landkreis Dingolfing-Landau",
+    "name_extra": ""
+  },
+  {
+    "id": "DH",
+    "stateId": "NI",
+    "origin": "Diepholz",
+    "name": "Landkreis Diepholz",
+    "name_extra": ""
+  },
+  {
+    "id": "DI",
+    "stateId": "HE",
+    "origin": "Dieburg",
+    "name": "Landkreis Darmstadt-Dieburg",
+    "name_extra": ""
+  },
+  {
+    "id": "DIL",
+    "stateId": "HE",
+    "origin": "Dillenburg",
+    "name": "Lahn-Dill-Kreis",
+    "name_extra": "ohne die Stadt Wetzlar"
+  },
+  {
+    "id": "DIN",
+    "stateId": "NW",
+    "origin": "Dinslaken",
+    "name": "Kreis Wesel",
+    "name_extra": ""
+  },
+  {
+    "id": "DIZ",
+    "stateId": "RP",
+    "origin": "Diez",
+    "name": "Rhein-Lahn-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "DKB",
+    "stateId": "BY",
+    "origin": "Dinkelsbühl",
+    "name": "Landkreis Ansbach",
+    "name_extra": ""
+  },
+  {
+    "id": "DL",
+    "stateId": "SN",
+    "origin": "Döbeln",
+    "name": "Landkreis Mittelsachsen",
+    "name_extra": ""
+  },
+  {
+    "id": "DLG",
+    "stateId": "BY",
+    "origin": "Dillingen",
+    "name": "Landkreis Dillingen an der Donau",
+    "name_extra": ""
+  },
+  {
+    "id": "DM",
+    "stateId": "MV",
+    "origin": "Demmin",
+    "name": "Landkreis Mecklenburgische Seenplatte",
+    "name_extra": "ohne die Stadt Neubrandenburg"
+  },
+  {
+    "id": "DN",
+    "stateId": "NW",
+    "origin": "Düren",
+    "name": "Kreis Düren",
+    "name_extra": ""
+  },
+  {
+    "id": "DO",
+    "stateId": "NW",
+    "origin": "Dortmund",
+    "name": "Stadt Dortmund",
+    "name_extra": ""
+  },
+  {
+    "id": "DON",
+    "stateId": "BY",
+    "origin": "Donauwörth",
+    "name": "Landkreis Donau-Ries",
+    "name_extra": ""
+  },
+  {
+    "id": "DU",
+    "stateId": "NW",
+    "origin": "Duisburg",
+    "name": "Stadt Duisburg",
+    "name_extra": ""
+  },
+  {
+    "id": "DUD",
+    "stateId": "NI",
+    "origin": "Duderstadt",
+    "name": "Landkreis Göttingen",
+    "name_extra": "ohne die Stadt Göttingen"
+  },
+  {
+    "id": "DÜW",
+    "stateId": "RP",
+    "origin": "Dürkheim an der weinstraße",
+    "name": "Landkreis Bad Dürkheim",
+    "name_extra": ""
+  },
+  {
+    "id": "DW",
+    "stateId": "SN",
+    "origin": "Dippoldiswalde",
+    "name": "Landkreis Sächsische Schweiz-Osterzgebirge",
+    "name_extra": ""
+  },
+  {
+    "id": "DZ",
+    "stateId": "SN",
+    "origin": "Delitzsch",
+    "name": "Landkreis Nordsachsen",
+    "name_extra": ""
+  },
+  {
+    "id": "E",
+    "stateId": "NW",
+    "origin": "Essen",
+    "name": "Stadt Essen",
+    "name_extra": ""
+  },
+  {
+    "id": "EA",
+    "stateId": "TH",
+    "origin": "Eisenach",
+    "name": "Stadt Eisenach",
+    "name_extra": ""
+  },
+  {
+    "id": "EB",
+    "stateId": "SN",
+    "origin": "Eilenburg",
+    "name": "Landkreis Nordsachsen",
+    "name_extra": ""
+  },
+  {
+    "id": "EBE",
+    "stateId": "BY",
+    "origin": "Ebersberg",
+    "name": "Landkreis Ebersberg",
+    "name_extra": ""
+  },
+  {
+    "id": "EBN",
+    "stateId": "BY",
+    "origin": "Ebern",
+    "name": "Landkreis Haßberge",
+    "name_extra": ""
+  },
+  {
+    "id": "EBS",
+    "stateId": "BY",
+    "origin": "Ebermannstadt",
+    "name": "Landkreis Bayreuth",
+    "name_extra": ""
+  },
+  {
+    "id": "EBS",
+    "stateId": "BY",
+    "origin": "Ebermannstadt",
+    "name": "Landkreis Forchheim",
+    "name_extra": ""
+  },
+  {
+    "id": "EBS",
+    "stateId": "BY",
+    "origin": "Ebermannstadt",
+    "name": "Landkreis Kulmbach",
+    "name_extra": ""
+  },
+  {
+    "id": "ECK",
+    "stateId": "SH",
+    "origin": "Eckernförde",
+    "name": "Kreis Rendsburg-Eckernförde",
+    "name_extra": ""
+  },
+  {
+    "id": "ED",
+    "stateId": "BY",
+    "origin": "Erding",
+    "name": "Landkreis Erding",
+    "name_extra": ""
+  },
+  {
+    "id": "EE",
+    "stateId": "BB",
+    "origin": "Elbe, elster",
+    "name": "Landkreis Elbe-Elster",
+    "name_extra": ""
+  },
+  {
+    "id": "EF",
+    "stateId": "TH",
+    "origin": "Erfurt",
+    "name": "Stadt Erfurt",
+    "name_extra": ""
+  },
+  {
+    "id": "EG",
+    "stateId": "BY",
+    "origin": "Eggenfelden",
+    "name": "Landkreis Rottal-Inn",
+    "name_extra": ""
+  },
+  {
+    "id": "EH",
+    "stateId": "BB",
+    "origin": "Eisenhüttenstadt",
+    "name": "Landkreis Oder-Spree",
+    "name_extra": ""
+  },
+  {
+    "id": "EI",
+    "stateId": "BY",
+    "origin": "Eichstätt",
+    "name": "Landkreis Eichstätt",
+    "name_extra": ""
+  },
+  {
+    "id": "EIC",
+    "stateId": "TH",
+    "origin": "Eichsfeld",
+    "name": "Landkreis Eichsfeld",
+    "name_extra": ""
+  },
+  {
+    "id": "EIL",
+    "stateId": "ST",
+    "origin": "Eisleben",
+    "name": "Landkreis Mansfeld-Südharz",
+    "name_extra": ""
+  },
+  {
+    "id": "EIN",
+    "stateId": "NI",
+    "origin": "Einbeck",
+    "name": "Landkreis Northeim",
+    "name_extra": ""
+  },
+  {
+    "id": "EIS",
+    "stateId": "TH",
+    "origin": "Eisenberg",
+    "name": "Saale-Holzland-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "EL",
+    "stateId": "NI",
+    "origin": "Emsland",
+    "name": "Landkreis Emsland",
+    "name_extra": ""
+  },
+  {
+    "id": "EM",
+    "stateId": "BW",
+    "origin": "Emmendingen",
+    "name": "Landkreis Emmendingen",
+    "name_extra": ""
+  },
+  {
+    "id": "EMD",
+    "stateId": "NI",
+    "origin": "Emden",
+    "name": "Stadt Emden",
+    "name_extra": ""
+  },
+  {
+    "id": "EMS",
+    "stateId": "RP",
+    "origin": "Ems",
+    "name": "Rhein-Lahn-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "EN",
+    "stateId": "NW",
+    "origin": "Ennepe",
+    "name": "Ennepe-Ruhr-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "ER",
+    "stateId": "BY",
+    "origin": "Erlangen",
+    "name": "Stadt Erlangen",
+    "name_extra": ""
+  },
+  {
+    "id": "ERB",
+    "stateId": "HE",
+    "origin": "Erbach",
+    "name": "Odenwaldkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "ERH",
+    "stateId": "BY",
+    "origin": "Erlangen, höchstadt",
+    "name": "Landkreis Erlangen-Höchstadt",
+    "name_extra": ""
+  },
+  {
+    "id": "ERK",
+    "stateId": "NW",
+    "origin": "Erkelenz",
+    "name": "Kreis Heinsberg",
+    "name_extra": ""
+  },
+  {
+    "id": "ERZ",
+    "stateId": "SN",
+    "origin": "Erzgebirge",
+    "name": "Erzgebirgskreis",
+    "name_extra": ""
+  },
+  {
+    "id": "ES",
+    "stateId": "BW",
+    "origin": "Esslingen",
+    "name": "Landkreis Esslingen",
+    "name_extra": ""
+  },
+  {
+    "id": "ESB",
+    "stateId": "BY",
+    "origin": "Eschenbach",
+    "name": "Landkreis Amberg-Sulzbach",
+    "name_extra": ""
+  },
+  {
+    "id": "ESB",
+    "stateId": "BY",
+    "origin": "Eschenbach",
+    "name": "Landkreis Bayreuth",
+    "name_extra": ""
+  },
+  {
+    "id": "ESB",
+    "stateId": "BY",
+    "origin": "Eschenbach",
+    "name": "Landkreis Neustadt an der Waldnaab",
+    "name_extra": ""
+  },
+  {
+    "id": "ESB",
+    "stateId": "BY",
+    "origin": "Eschenbach",
+    "name": "Landkreis Nürnberger Land",
+    "name_extra": ""
+  },
+  {
+    "id": "ESW",
+    "stateId": "HE",
+    "origin": "Eschwege",
+    "name": "Werra-Meißner-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "EU",
+    "stateId": "NW",
+    "origin": "Euskirchen",
+    "name": "Kreis Euskirchen",
+    "name_extra": ""
+  },
+  {
+    "id": "EW",
+    "stateId": "BB",
+    "origin": "Eberswalde",
+    "name": "Landkreis Barnim",
+    "name_extra": ""
+  },
+  {
+    "id": "F",
+    "stateId": "HE",
+    "origin": "Frankfurt",
+    "name": "Stadt Frankfurt am Main",
+    "name_extra": ""
+  },
+  {
+    "id": "FB",
+    "stateId": "HE",
+    "origin": "Friedberg",
+    "name": "Wetteraukreis",
+    "name_extra": ""
+  },
+  {
+    "id": "FD",
+    "stateId": "HE",
+    "origin": "Fulda",
+    "name": "Landkreis Fulda",
+    "name_extra": ""
+  },
+  {
+    "id": "FDB",
+    "stateId": "BY",
+    "origin": "Friedberg",
+    "name": "Landkreis Aichach-Friedberg",
+    "name_extra": ""
+  },
+  {
+    "id": "FDS",
+    "stateId": "BW",
+    "origin": "Freudenstadt",
+    "name": "Landkreis Freudenstadt",
+    "name_extra": ""
+  },
+  {
+    "id": "FEU",
+    "stateId": "BY",
+    "origin": "Feuchtwangen",
+    "name": "Landkreis Ansbach",
+    "name_extra": ""
+  },
+  {
+    "id": "FF",
+    "stateId": "BB",
+    "origin": "Frankfurt (oder)",
+    "name": "Stadt Frankfurt (Oder)",
+    "name_extra": ""
+  },
+  {
+    "id": "FFB",
+    "stateId": "BY",
+    "origin": "Fürstenfeldbruck",
+    "name": "Landkreis Fürstenfeldbruck",
+    "name_extra": ""
+  },
+  {
+    "id": "FG",
+    "stateId": "SN",
+    "origin": "Freiberg",
+    "name": "Landkreis Mittelsachsen",
+    "name_extra": ""
+  },
+  {
+    "id": "FI",
+    "stateId": "BB",
+    "origin": "Finsterwalde",
+    "name": "Landkreis Elbe-Elster",
+    "name_extra": ""
+  },
+  {
+    "id": "FKB",
+    "stateId": "HE",
+    "origin": "Frankenberg",
+    "name": "Landkreis Waldeck-Frankenberg",
+    "name_extra": ""
+  },
+  {
+    "id": "FL",
+    "stateId": "SH",
+    "origin": "Flensburg",
+    "name": "Stadt Flensburg",
+    "name_extra": ""
+  },
+  {
+    "id": "FLÖ",
+    "stateId": "SN",
+    "origin": "Flöha",
+    "name": "Landkreis Mittelsachsen",
+    "name_extra": ""
+  },
+  {
+    "id": "FN",
+    "stateId": "BW",
+    "origin": "Friedrichshafen",
+    "name": "Bodenseekreis",
+    "name_extra": ""
+  },
+  {
+    "id": "FO",
+    "stateId": "BY",
+    "origin": "Forchheim",
+    "name": "Landkreis Forchheim",
+    "name_extra": ""
+  },
+  {
+    "id": "FOR",
+    "stateId": "BB",
+    "origin": "Forst",
+    "name": "Landkreis Spree-Neiße",
+    "name_extra": ""
+  },
+  {
+    "id": "FR",
+    "stateId": "BW",
+    "origin": "Freiburg",
+    "name": "Stadt Freiburg im Breisgau",
+    "name_extra": ""
+  },
+  {
+    "id": "FR",
+    "stateId": "BW",
+    "origin": "Freiburg",
+    "name": "Landkreis Breisgau-Hochschwarzwald",
+    "name_extra": ""
+  },
+  {
+    "id": "FRG",
+    "stateId": "BY",
+    "origin": "Freyung, grafenau",
+    "name": "Landkreis Freyung-Grafenau",
+    "name_extra": ""
+  },
+  {
+    "id": "FRI",
+    "stateId": "NI",
+    "origin": "Friesland",
+    "name": "Landkreis Friesland",
+    "name_extra": ""
+  },
+  {
+    "id": "FRW",
+    "stateId": "BB",
+    "origin": "Freienwalde",
+    "name": "Landkreis Märkisch-Oderland",
+    "name_extra": ""
+  },
+  {
+    "id": "FS",
+    "stateId": "BY",
+    "origin": "Freising",
+    "name": "Landkreis Freising",
+    "name_extra": ""
+  },
+  {
+    "id": "FT",
+    "stateId": "RP",
+    "origin": "Frankenthal",
+    "name": "Stadt Frankenthal (Pfalz)",
+    "name_extra": ""
+  },
+  {
+    "id": "FTL",
+    "stateId": "SN",
+    "origin": "Freital",
+    "name": "Landkreis Sächsische Schweiz-Osterzgebirge",
+    "name_extra": ""
+  },
+  {
+    "id": "FÜ",
+    "stateId": "BY",
+    "origin": "Fürth",
+    "name": "Stadt Fürth",
+    "name_extra": ""
+  },
+  {
+    "id": "FÜ",
+    "stateId": "BY",
+    "origin": "Fürth",
+    "name": "Landkreis Fürth",
+    "name_extra": ""
+  },
+  {
+    "id": "FÜS",
+    "stateId": "BY",
+    "origin": "Füssen",
+    "name": "Landkreis Ostallgäu",
+    "name_extra": ""
+  },
+  {
+    "id": "FW",
+    "stateId": "BB",
+    "origin": "Fürstenwalde",
+    "name": "Landkreis Oder-Spree",
+    "name_extra": ""
+  },
+  {
+    "id": "FZ",
+    "stateId": "HE",
+    "origin": "Fritzlar",
+    "name": "Schwalm-Eder-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "G",
+    "stateId": "TH",
+    "origin": "Gera",
+    "name": "Stadt Gera",
+    "name_extra": ""
+  },
+  {
+    "id": "GA",
+    "stateId": "ST",
+    "origin": "Gardelegen",
+    "name": "Altmarkkreis Salzwedel",
+    "name_extra": ""
+  },
+  {
+    "id": "GAN",
+    "stateId": "NI",
+    "origin": "Gandersheim",
+    "name": "Landkreis Northeim",
+    "name_extra": ""
+  },
+  {
+    "id": "GAP",
+    "stateId": "BY",
+    "origin": "Garmisch-partenkirchen",
+    "name": "Landkreis Garmisch-Partenkirchen",
+    "name_extra": ""
+  },
+  {
+    "id": "GC",
+    "stateId": "SN",
+    "origin": "Glauchau",
+    "name": "Landkreis Zwickau",
+    "name_extra": ""
+  },
+  {
+    "id": "GD",
+    "stateId": "BW",
+    "origin": "Gmünd",
+    "name": "Ostalbkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "GDB",
+    "stateId": "MV",
+    "origin": "Gadebusch",
+    "name": "Landkreis Nordwestmecklenburg",
+    "name_extra": ""
+  },
+  {
+    "id": "GE",
+    "stateId": "NW",
+    "origin": "Gelsenkirchen",
+    "name": "Stadt Gelsenkirchen",
+    "name_extra": ""
+  },
+  {
+    "id": "GEL",
+    "stateId": "NW",
+    "origin": "Geldern",
+    "name": "Kreis Kleve",
+    "name_extra": ""
+  },
+  {
+    "id": "GEO",
+    "stateId": "BY",
+    "origin": "Gerolzhofen",
+    "name": "Landkreis Haßberge",
+    "name_extra": ""
+  },
+  {
+    "id": "GEO",
+    "stateId": "BY",
+    "origin": "Gerolzhofen",
+    "name": "Landkreis Schweinfurt",
+    "name_extra": ""
+  },
+  {
+    "id": "GER",
+    "stateId": "RP",
+    "origin": "Germersheim",
+    "name": "Landkreis Germersheim",
+    "name_extra": ""
+  },
+  {
+    "id": "GF",
+    "stateId": "NI",
+    "origin": "Gifhorn",
+    "name": "Landkreis Gifhorn",
+    "name_extra": ""
+  },
+  {
+    "id": "GG",
+    "stateId": "HE",
+    "origin": "Groß-gerau",
+    "name": "Kreis Groß-Gerau",
+    "name_extra": ""
+  },
+  {
+    "id": "GHA",
+    "stateId": "SN",
+    "origin": "Geithain",
+    "name": "Landkreis Leipzig",
+    "name_extra": ""
+  },
+  {
+    "id": "GHC",
+    "stateId": "ST",
+    "origin": "Gräfenhainichen",
+    "name": "Landkreis Wittenberg",
+    "name_extra": ""
+  },
+  {
+    "id": "GI",
+    "stateId": "HE",
+    "origin": "Gießen",
+    "name": "Landkreis Gießen",
+    "name_extra": ""
+  },
+  {
+    "id": "GK",
+    "stateId": "NW",
+    "origin": "Geilenkirchen",
+    "name": "Kreis Heinsberg",
+    "name_extra": ""
+  },
+  {
+    "id": "GL",
+    "stateId": "NW",
+    "origin": "Gladbach",
+    "name": "Rheinisch-Bergischer Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "GLA",
+    "stateId": "NW",
+    "origin": "Gladbeck",
+    "name": "Kreis Recklinghausen",
+    "name_extra": ""
+  },
+  {
+    "id": "GM",
+    "stateId": "NW",
+    "origin": "Gummersbach",
+    "name": "Oberbergischer Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "GMN",
+    "stateId": "MV",
+    "origin": "Grimmen",
+    "name": "Landkreis Vorpommern-Rügen",
+    "name_extra": ""
+  },
+  {
+    "id": "GN",
+    "stateId": "HE",
+    "origin": "Gelnhausen",
+    "name": "Main-Kinzig-Kreis",
+    "name_extra": "ohne die Stadt Hanau"
+  },
+  {
+    "id": "GNT",
+    "stateId": "ST",
+    "origin": "Genthin",
+    "name": "Landkreis Jerichower Land",
+    "name_extra": ""
+  },
+  {
+    "id": "GÖ",
+    "stateId": "NI",
+    "origin": "Göttingen",
+    "name": "Landkreis Göttingen",
+    "name_extra": ""
+  },
+  {
+    "id": "GÖ",
+    "stateId": "NI",
+    "origin": "Göttingen",
+    "name": "Stadt Göttingen",
+    "name_extra": ""
+  },
+  {
+    "id": "GOA",
+    "stateId": "RP",
+    "origin": "Goar",
+    "name": "Rhein-Hunsrück-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "GOH",
+    "stateId": "RP",
+    "origin": "Goarshausen",
+    "name": "Rhein-Lahn-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "GP",
+    "stateId": "BW",
+    "origin": "Göppingen",
+    "name": "Landkreis Göppingen",
+    "name_extra": ""
+  },
+  {
+    "id": "GR",
+    "stateId": "SN",
+    "origin": "Görlitz",
+    "name": "Landkreis Görlitz",
+    "name_extra": ""
+  },
+  {
+    "id": "GRA",
+    "stateId": "BY",
+    "origin": "Grafenau",
+    "name": "Landkreis Freyung-Grafenau",
+    "name_extra": ""
+  },
+  {
+    "id": "GRH",
+    "stateId": "SN",
+    "origin": "Großenhain",
+    "name": "Landkreis Meißen",
+    "name_extra": ""
+  },
+  {
+    "id": "GRI",
+    "stateId": "BY",
+    "origin": "Griesbach",
+    "name": "Landkreis Rottal-Inn",
+    "name_extra": ""
+  },
+  {
+    "id": "GRM",
+    "stateId": "SN",
+    "origin": "Grimma",
+    "name": "Landkreis Leipzig",
+    "name_extra": ""
+  },
+  {
+    "id": "GRZ",
+    "stateId": "TH",
+    "origin": "Greiz",
+    "name": "Landkreis Greiz",
+    "name_extra": ""
+  },
+  {
+    "id": "GS",
+    "stateId": "NI",
+    "origin": "Goslar",
+    "name": "Landkreis Goslar",
+    "name_extra": ""
+  },
+  {
+    "id": "GT",
+    "stateId": "NW",
+    "origin": "Gütersloh",
+    "name": "Kreis Gütersloh",
+    "name_extra": ""
+  },
+  {
+    "id": "GTH",
+    "stateId": "TH",
+    "origin": "Gotha",
+    "name": "Landkreis Gotha",
+    "name_extra": ""
+  },
+  {
+    "id": "GÜ",
+    "stateId": "MV",
+    "origin": "Güstrow",
+    "name": "Landkreis Rostock",
+    "name_extra": ""
+  },
+  {
+    "id": "GUB",
+    "stateId": "BB",
+    "origin": "Guben",
+    "name": "Landkreis Spree-Neiße",
+    "name_extra": ""
+  },
+  {
+    "id": "GUN",
+    "stateId": "BY",
+    "origin": "Gunzenhausen",
+    "name": "Landkreis Weißenburg-Gunzenhausen",
+    "name_extra": ""
+  },
+  {
+    "id": "GV",
+    "stateId": "NW",
+    "origin": "Grevenbroich",
+    "name": "Rhein-Kreis Neuss",
+    "name_extra": ""
+  },
+  {
+    "id": "GVM",
+    "stateId": "MV",
+    "origin": "Grevesmühlen",
+    "name": "Landkreis Nordwestmecklenburg",
+    "name_extra": ""
+  },
+  {
+    "id": "GW",
+    "stateId": "MV",
+    "origin": "Greifswald",
+    "name": "Landkreis Vorpommern-Greifswald",
+    "name_extra": "ohne die Stadt Greifswald"
+  },
+  {
+    "id": "GZ",
+    "stateId": "BY",
+    "origin": "Günzburg",
+    "name": "Landkreis Günzburg",
+    "name_extra": ""
+  },
+  {
+    "id": "H",
+    "stateId": "NI",
+    "origin": "Hannover",
+    "name": "Region Hannover",
+    "name_extra": ""
+  },
+  {
+    "id": "H",
+    "stateId": "NI",
+    "origin": "Hannover",
+    "name": "Stadt Hannover",
+    "name_extra": ""
+  },
+  {
+    "id": "HA",
+    "stateId": "NW",
+    "origin": "Hagen",
+    "name": "Stadt Hagen",
+    "name_extra": ""
+  },
+  {
+    "id": "HAB",
+    "stateId": "BY",
+    "origin": "Hammelburg",
+    "name": "Landkreis Bad Kissingen",
+    "name_extra": ""
+  },
+  {
+    "id": "HAL",
+    "stateId": "ST",
+    "origin": "Halle",
+    "name": "Stadt Halle (Saale)",
+    "name_extra": ""
+  },
+  {
+    "id": "HAM",
+    "stateId": "NW",
+    "origin": "Hamm",
+    "name": "Stadt Hamm",
+    "name_extra": ""
+  },
+  {
+    "id": "HAS",
+    "stateId": "BY",
+    "origin": "Hassfurt",
+    "name": "Landkreis Haßberge",
+    "name_extra": ""
+  },
+  {
+    "id": "HB",
+    "stateId": "HB",
+    "origin": "Hansestadt bremen",
+    "name": "Hansestadt Bremen",
+    "name_extra": ""
+  },
+  {
+    "id": "HB",
+    "stateId": "HB",
+    "origin": "Hansestadt bremen",
+    "name": "Bremen",
+    "name_extra": "Senat und Bürgerschaft"
+  },
+  {
+    "id": "HB",
+    "stateId": "HB",
+    "origin": "Hansestadt bremen",
+    "name": "Stadt Bremerhaven",
+    "name_extra": ""
+  },
+  {
+    "id": "HBN",
+    "stateId": "TH",
+    "origin": "Hildburghausen",
+    "name": "Landkreis Hildburghausen",
+    "name_extra": ""
+  },
+  {
+    "id": "HBS",
+    "stateId": "ST",
+    "origin": "Halberstadt",
+    "name": "Landkreis Harz",
+    "name_extra": ""
+  },
+  {
+    "id": "HC",
+    "stateId": "SN",
+    "origin": "Hainichen",
+    "name": "Landkreis Mittelsachsen",
+    "name_extra": ""
+  },
+  {
+    "id": "HCH",
+    "stateId": "BW",
+    "origin": "Hechingen",
+    "name": "Landkreis Freudenstadt",
+    "name_extra": ""
+  },
+  {
+    "id": "HCH",
+    "stateId": "BW",
+    "origin": "Hechingen",
+    "name": "Zollernalbkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "HD",
+    "stateId": "BW",
+    "origin": "Heidelberg",
+    "name": "Stadt Heidelberg",
+    "name_extra": ""
+  },
+  {
+    "id": "HD",
+    "stateId": "BW",
+    "origin": "Heidelberg",
+    "name": "Rhein-Neckar-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "HDH",
+    "stateId": "BW",
+    "origin": "Heidenheim",
+    "name": "Landkreis Heidenheim",
+    "name_extra": ""
+  },
+  {
+    "id": "HDL",
+    "stateId": "ST",
+    "origin": "Haldensleben",
+    "name": "Landkreis Börde",
+    "name_extra": ""
+  },
+  {
+    "id": "HE",
+    "stateId": "NI",
+    "origin": "Helmstedt",
+    "name": "Landkreis Helmstedt",
+    "name_extra": ""
+  },
+  {
+    "id": "HEB",
+    "stateId": "BY",
+    "origin": "Hersbruck",
+    "name": "Landkreis Nürnberger Land",
+    "name_extra": ""
+  },
+  {
+    "id": "HEF",
+    "stateId": "HE",
+    "origin": "Hersfeld",
+    "name": "Landkreis Hersfeld-Rotenburg",
+    "name_extra": ""
+  },
+  {
+    "id": "HEI",
+    "stateId": "SH",
+    "origin": "Heide",
+    "name": "Kreis Dithmarschen",
+    "name_extra": ""
+  },
+  {
+    "id": "HEL",
+    "stateId": "HE",
+    "origin": "Hessischer landtag",
+    "name": "Hessen",
+    "name_extra": "Landesregierung und Landtag"
+  },
+  {
+    "id": "HER",
+    "stateId": "NW",
+    "origin": "Herne",
+    "name": "Stadt Herne",
+    "name_extra": ""
+  },
+  {
+    "id": "HET",
+    "stateId": "ST",
+    "origin": "Hettstedt",
+    "name": "Landkreis Mansfeld-Südharz",
+    "name_extra": ""
+  },
+  {
+    "id": "HF",
+    "stateId": "NW",
+    "origin": "Herford",
+    "name": "Kreis Herford",
+    "name_extra": ""
+  },
+  {
+    "id": "HG",
+    "stateId": "HE",
+    "origin": "Homburg",
+    "name": "Hochtaunuskreis",
+    "name_extra": ""
+  },
+  {
+    "id": "HGN",
+    "stateId": "MV",
+    "origin": "Hagenow",
+    "name": "Landkreis Ludwigslust-Parchim",
+    "name_extra": ""
+  },
+  {
+    "id": "HGW",
+    "stateId": "MV",
+    "origin": "Hansestadt greifswald",
+    "name": "Stadt Greifswald",
+    "name_extra": ""
+  },
+  {
+    "id": "HH",
+    "stateId": "HH",
+    "origin": "Hansestadt hamburg",
+    "name": "Hansestadt Hamburg",
+    "name_extra": ""
+  },
+  {
+    "id": "HH",
+    "stateId": "HH",
+    "origin": "Hansestadt hamburg",
+    "name": "Hamburg",
+    "name_extra": "Senat und Bürgerschaft"
+  },
+  {
+    "id": "HHM",
+    "stateId": "ST",
+    "origin": "Hohenmölsen",
+    "name": "Burgenlandkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "HI",
+    "stateId": "NI",
+    "origin": "Hildesheim",
+    "name": "Landkreis Hildesheim",
+    "name_extra": ""
+  },
+  {
+    "id": "HIG",
+    "stateId": "TH",
+    "origin": "Heiligenstadt",
+    "name": "Landkreis Eichsfeld",
+    "name_extra": ""
+  },
+  {
+    "id": "HIP",
+    "stateId": "BY",
+    "origin": "Hilpoltstein",
+    "name": "Landkreis Roth",
+    "name_extra": ""
+  },
+  {
+    "id": "HK",
+    "stateId": "NI",
+    "origin": "Heidekreis",
+    "name": "Landkreis Heidekreis",
+    "name_extra": ""
+  },
+  {
+    "id": "HL",
+    "stateId": "SH",
+    "origin": "Hansestadt lübeck",
+    "name": "Stadt Lübeck",
+    "name_extra": ""
+  },
+  {
+    "id": "HM",
+    "stateId": "NI",
+    "origin": "Hameln",
+    "name": "Landkreis Hameln-Pyrmont",
+    "name_extra": ""
+  },
+  {
+    "id": "HMÜ",
+    "stateId": "NI",
+    "origin": "Hann. münden",
+    "name": "Landkreis Göttingen",
+    "name_extra": "ohne die Stadt Göttingen"
+  },
+  {
+    "id": "HN",
+    "stateId": "BW",
+    "origin": "Heilbronn",
+    "name": "Stadt Heilbronn",
+    "name_extra": ""
+  },
+  {
+    "id": "HN",
+    "stateId": "BW",
+    "origin": "Heilbronn",
+    "name": "Landkreis Heilbronn",
+    "name_extra": ""
+  },
+  {
+    "id": "HO",
+    "stateId": "BY",
+    "origin": "Hof",
+    "name": "Stadt Hof",
+    "name_extra": ""
+  },
+  {
+    "id": "HO",
+    "stateId": "BY",
+    "origin": "Hof",
+    "name": "Landkreis Hof",
+    "name_extra": ""
+  },
+  {
+    "id": "HOG",
+    "stateId": "HE",
+    "origin": "Hofgeismar",
+    "name": "Landkreis Kassel",
+    "name_extra": ""
+  },
+  {
+    "id": "HOH",
+    "stateId": "BY",
+    "origin": "Hofheim",
+    "name": "Landkreis Haßberge",
+    "name_extra": ""
+  },
+  {
+    "id": "HOL",
+    "stateId": "NI",
+    "origin": "Holzminden",
+    "name": "Landkreis Holzminden",
+    "name_extra": ""
+  },
+  {
+    "id": "HOM",
+    "stateId": "SL",
+    "origin": "Homburg",
+    "name": "Saarpfalz-Kreis",
+    "name_extra": "ohne die Stadt St. Ingbert"
+  },
+  {
+    "id": "HOR",
+    "stateId": "BW",
+    "origin": "Horb",
+    "name": "Landkreis Freudenstadt",
+    "name_extra": ""
+  },
+  {
+    "id": "HÖS",
+    "stateId": "BY",
+    "origin": "Höchstadt",
+    "name": "Landkreis Erlangen-Höchstadt",
+    "name_extra": ""
+  },
+  {
+    "id": "HOT",
+    "stateId": "SN",
+    "origin": "Hohenstein",
+    "name": "Landkreis Zwickau",
+    "name_extra": ""
+  },
+  {
+    "id": "HP",
+    "stateId": "HE",
+    "origin": "Heppenheim",
+    "name": "Kreis Bergstraße",
+    "name_extra": ""
+  },
+  {
+    "id": "HR",
+    "stateId": "HE",
+    "origin": "Homberg",
+    "name": "Schwalm-Eder-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "HRO",
+    "stateId": "MV",
+    "origin": "Hansestadt rostock",
+    "name": "Stadt Rostock",
+    "name_extra": ""
+  },
+  {
+    "id": "HS",
+    "stateId": "NW",
+    "origin": "Heinsberg",
+    "name": "Kreis Heinsberg",
+    "name_extra": ""
+  },
+  {
+    "id": "HSK",
+    "stateId": "NW",
+    "origin": "Hochsauerlandkreis",
+    "name": "Hochsauerlandkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "HST",
+    "stateId": "MV",
+    "origin": "Hansestadt stralsund",
+    "name": "Stadt Stralsund",
+    "name_extra": "große kreisangehörige Stadt im Landkreis Vorpommern-Rügen"
+  },
+  {
+    "id": "HU",
+    "stateId": "HE",
+    "origin": "Hanau",
+    "name": "Stadt Hanau",
+    "name_extra": "Sonderstatusstadt im Main-Kinzig-Kreis"
+  },
+  {
+    "id": "HU",
+    "stateId": "HE",
+    "origin": "Hanau",
+    "name": "Main-Kinzig-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "HV",
+    "stateId": "ST",
+    "origin": "Havelberg",
+    "name": "Landkreis Stendal",
+    "name_extra": ""
+  },
+  {
+    "id": "HVL",
+    "stateId": "BB",
+    "origin": "Havelland",
+    "name": "Landkreis Havelland",
+    "name_extra": ""
+  },
+  {
+    "id": "HWI",
+    "stateId": "MV",
+    "origin": "Hansestadt wismar",
+    "name": "Stadt Wismar",
+    "name_extra": "große kreisangehörige Stadt im Landkreis Nordwestmecklenburg"
+  },
+  {
+    "id": "HX",
+    "stateId": "NW",
+    "origin": "Höxter",
+    "name": "Kreis Höxter",
+    "name_extra": ""
+  },
+  {
+    "id": "HY",
+    "stateId": "SN",
+    "origin": "Hoyerswerda",
+    "name": "Landkreis Bautzen",
+    "name_extra": ""
+  },
+  {
+    "id": "HZ",
+    "stateId": "ST",
+    "origin": "Harz",
+    "name": "Landkreis Harz",
+    "name_extra": ""
+  },
+  {
+    "id": "IGB",
+    "stateId": "SL",
+    "origin": "Ingbert",
+    "name": "Stadt St. Ingbert",
+    "name_extra": "Mittelstadt im Saarpfalz-Kreis"
+  },
+  {
+    "id": "IK",
+    "stateId": "TH",
+    "origin": "Ilm-kreis",
+    "name": "Ilm-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "IL",
+    "stateId": "TH",
+    "origin": "Ilmenau",
+    "name": "Ilm-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "ILL",
+    "stateId": "BY",
+    "origin": "Illertissen",
+    "name": "Landkreis Neu-Ulm",
+    "name_extra": ""
+  },
+  {
+    "id": "IN",
+    "stateId": "BY",
+    "origin": "Ingolstadt",
+    "name": "Stadt Ingolstadt",
+    "name_extra": ""
+  },
+  {
+    "id": "J",
+    "stateId": "TH",
+    "origin": "Jena",
+    "name": "Stadt Jena",
+    "name_extra": ""
+  },
+  {
+    "id": "JE",
+    "stateId": "ST",
+    "origin": "Jessen",
+    "name": "Landkreis Wittenberg",
+    "name_extra": ""
+  },
+  {
+    "id": "JL",
+    "stateId": "ST",
+    "origin": "Jerichower land",
+    "name": "Landkreis Jerichower Land",
+    "name_extra": ""
+  },
+  {
+    "id": "JÜL",
+    "stateId": "NW",
+    "origin": "Jülich",
+    "name": "Kreis Düren",
+    "name_extra": ""
+  },
+  {
+    "id": "K",
+    "stateId": "NW",
+    "origin": "Köln",
+    "name": "Stadt Köln",
+    "name_extra": ""
+  },
+  {
+    "id": "KA",
+    "stateId": "BW",
+    "origin": "Karlsruhe",
+    "name": "Stadt Karlsruhe",
+    "name_extra": ""
+  },
+  {
+    "id": "KA",
+    "stateId": "BW",
+    "origin": "Karlsruhe",
+    "name": "Landkreis Karlsruhe",
+    "name_extra": ""
+  },
+  {
+    "id": "KB",
+    "stateId": "HE",
+    "origin": "Korbach",
+    "name": "Landkreis Waldeck-Frankenberg",
+    "name_extra": ""
+  },
+  {
+    "id": "KC",
+    "stateId": "BY",
+    "origin": "Kronach",
+    "name": "Landkreis Kronach",
+    "name_extra": ""
+  },
+  {
+    "id": "KE",
+    "stateId": "BY",
+    "origin": "Kempten",
+    "name": "Stadt Kempten (Allgäu)",
+    "name_extra": ""
+  },
+  {
+    "id": "KEH",
+    "stateId": "BY",
+    "origin": "Kelheim",
+    "name": "Landkreis Kelheim",
+    "name_extra": ""
+  },
+  {
+    "id": "KEL",
+    "stateId": "BW",
+    "origin": "Kehl",
+    "name": "Ortenaukreis",
+    "name_extra": ""
+  },
+  {
+    "id": "KEM",
+    "stateId": "BY",
+    "origin": "Kemnath",
+    "name": "Landkreis Bayreuth",
+    "name_extra": ""
+  },
+  {
+    "id": "KEM",
+    "stateId": "BY",
+    "origin": "Kemnath",
+    "name": "Landkreis Tirschenreuth",
+    "name_extra": ""
+  },
+  {
+    "id": "KF",
+    "stateId": "BY",
+    "origin": "Kaufbeuren",
+    "name": "Stadt Kaufbeuren",
+    "name_extra": ""
+  },
+  {
+    "id": "KG",
+    "stateId": "BY",
+    "origin": "Kissingen",
+    "name": "Landkreis Bad Kissingen",
+    "name_extra": ""
+  },
+  {
+    "id": "KH",
+    "stateId": "RP",
+    "origin": "Kreuznach",
+    "name": "Landkreis Bad Kreuznach",
+    "name_extra": ""
+  },
+  {
+    "id": "KI",
+    "stateId": "SH",
+    "origin": "Kiel",
+    "name": "Stadt Kiel",
+    "name_extra": ""
+  },
+  {
+    "id": "KIB",
+    "stateId": "RP",
+    "origin": "Kirchheimbolanden",
+    "name": "Donnersbergkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "KK",
+    "stateId": "NW",
+    "origin": "Kempen, krefeld",
+    "name": "Kreis Viersen",
+    "name_extra": ""
+  },
+  {
+    "id": "KL",
+    "stateId": "RP",
+    "origin": "Kaiserslautern",
+    "name": "Stadt Kaiserslautern",
+    "name_extra": ""
+  },
+  {
+    "id": "KL",
+    "stateId": "RP",
+    "origin": "Kaiserslautern",
+    "name": "Landkreis Kaiserslautern",
+    "name_extra": ""
+  },
+  {
+    "id": "KLE",
+    "stateId": "NW",
+    "origin": "Kleve",
+    "name": "Kreis Kleve",
+    "name_extra": ""
+  },
+  {
+    "id": "KLZ",
+    "stateId": "ST",
+    "origin": "Klötze",
+    "name": "Altmarkkreis Salzwedel",
+    "name_extra": ""
+  },
+  {
+    "id": "KM",
+    "stateId": "SN",
+    "origin": "Kamenz",
+    "name": "Landkreis Bautzen",
+    "name_extra": ""
+  },
+  {
+    "id": "KN",
+    "stateId": "BW",
+    "origin": "Konstanz",
+    "name": "Landkreis Konstanz",
+    "name_extra": "ohne die Gemeinde Büsingen am Hochrhein"
+  },
+  {
+    "id": "KO",
+    "stateId": "RP",
+    "origin": "Koblenz",
+    "name": "Stadt Koblenz",
+    "name_extra": ""
+  },
+  {
+    "id": "KÖN",
+    "stateId": "BY",
+    "origin": "Königshofen",
+    "name": "Landkreis Rhön-Grabfeld",
+    "name_extra": ""
+  },
+  {
+    "id": "KÖT",
+    "stateId": "ST",
+    "origin": "Köthen",
+    "name": "Landkreis Anhalt-Bitterfeld",
+    "name_extra": ""
+  },
+  {
+    "id": "KÖZ",
+    "stateId": "BY",
+    "origin": "Kötzting",
+    "name": "Landkreis Cham",
+    "name_extra": ""
+  },
+  {
+    "id": "KR",
+    "stateId": "NW",
+    "origin": "Krefeld",
+    "name": "Stadt Krefeld",
+    "name_extra": ""
+  },
+  {
+    "id": "KRU",
+    "stateId": "BY",
+    "origin": "Krumbach",
+    "name": "Landkreis Günzburg",
+    "name_extra": ""
+  },
+  {
+    "id": "KS",
+    "stateId": "HE",
+    "origin": "Kassel",
+    "name": "Stadt Kassel",
+    "name_extra": ""
+  },
+  {
+    "id": "KS",
+    "stateId": "HE",
+    "origin": "Kassel",
+    "name": "Landkreis Kassel",
+    "name_extra": ""
+  },
+  {
+    "id": "KT",
+    "stateId": "BY",
+    "origin": "Kitzingen",
+    "name": "Landkreis Kitzingen",
+    "name_extra": ""
+  },
+  {
+    "id": "KU",
+    "stateId": "BY",
+    "origin": "Kulmbach",
+    "name": "Landkreis Kulmbach",
+    "name_extra": ""
+  },
+  {
+    "id": "KÜN",
+    "stateId": "BW",
+    "origin": "Künzelsau",
+    "name": "Hohenlohekreis",
+    "name_extra": ""
+  },
+  {
+    "id": "KUS",
+    "stateId": "RP",
+    "origin": "Kusel",
+    "name": "Landkreis Kusel",
+    "name_extra": ""
+  },
+  {
+    "id": "KW",
+    "stateId": "BB",
+    "origin": "Königs wusterhausen",
+    "name": "Landkreis Dahme-Spreewald",
+    "name_extra": ""
+  },
+  {
+    "id": "KY",
+    "stateId": "BB",
+    "origin": "Kyritz",
+    "name": "Landkreis Ostprignitz-Ruppin",
+    "name_extra": ""
+  },
+  {
+    "id": "KYF",
+    "stateId": "TH",
+    "origin": "Kyffhäuser",
+    "name": "Kyffhäuserkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "L",
+    "stateId": "SN",
+    "origin": "Leipzig",
+    "name": "Stadt Leipzig",
+    "name_extra": ""
+  },
+  {
+    "id": "L",
+    "stateId": "SN",
+    "origin": "Leipzig",
+    "name": "Landkreis Leipzig",
+    "name_extra": ""
+  },
+  {
+    "id": "LA",
+    "stateId": "BY",
+    "origin": "Landshut",
+    "name": "Stadt Landshut",
+    "name_extra": ""
+  },
+  {
+    "id": "LA",
+    "stateId": "BY",
+    "origin": "Landshut",
+    "name": "Landkreis Landshut",
+    "name_extra": ""
+  },
+  {
+    "id": "LAN",
+    "stateId": "BY",
+    "origin": "Landau",
+    "name": "Landkreis Dingolfing-Landau",
+    "name_extra": ""
+  },
+  {
+    "id": "LAU",
+    "stateId": "BY",
+    "origin": "Lauf",
+    "name": "Landkreis Nürnberger Land",
+    "name_extra": ""
+  },
+  {
+    "id": "LB",
+    "stateId": "BW",
+    "origin": "Ludwigsburg",
+    "name": "Landkreis Ludwigsburg",
+    "name_extra": ""
+  },
+  {
+    "id": "LBS",
+    "stateId": "TH",
+    "origin": "Lobenstein",
+    "name": "Saale-Orla-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "LBZ",
+    "stateId": "MV",
+    "origin": "Lübz",
+    "name": "Landkreis Ludwigslust-Parchim",
+    "name_extra": ""
+  },
+  {
+    "id": "LC",
+    "stateId": "BB",
+    "origin": "Luckau",
+    "name": "Landkreis Dahme-Spreewald",
+    "name_extra": ""
+  },
+  {
+    "id": "LD",
+    "stateId": "RP",
+    "origin": "Landau",
+    "name": "Stadt Landau in der Pfalz",
+    "name_extra": ""
+  },
+  {
+    "id": "LDK",
+    "stateId": "HE",
+    "origin": "Lahn-dill-kreis",
+    "name": "Lahn-Dill-Kreis",
+    "name_extra": "ohne die Stadt Wetzlar"
+  },
+  {
+    "id": "LDS",
+    "stateId": "BB",
+    "origin": "Landkreis dahme-spreewald",
+    "name": "Landkreis Dahme-Spreewald",
+    "name_extra": ""
+  },
+  {
+    "id": "LEO",
+    "stateId": "BW",
+    "origin": "Leonberg",
+    "name": "Landkreis Böblingen",
+    "name_extra": ""
+  },
+  {
+    "id": "LER",
+    "stateId": "NI",
+    "origin": "Leer",
+    "name": "Landkreis Leer",
+    "name_extra": ""
+  },
+  {
+    "id": "LEV",
+    "stateId": "NW",
+    "origin": "Leverkusen",
+    "name": "Stadt Leverkusen",
+    "name_extra": ""
+  },
+  {
+    "id": "LF",
+    "stateId": "BY",
+    "origin": "Laufen",
+    "name": "Landkreis Altötting",
+    "name_extra": ""
+  },
+  {
+    "id": "LF",
+    "stateId": "BY",
+    "origin": "Laufen",
+    "name": "Landkreis Berchtesgadener Land",
+    "name_extra": ""
+  },
+  {
+    "id": "LF",
+    "stateId": "BY",
+    "origin": "Laufen",
+    "name": "Landkreis Traunstein",
+    "name_extra": ""
+  },
+  {
+    "id": "LG",
+    "stateId": "NI",
+    "origin": "Lüneburg",
+    "name": "Landkreis Lüneburg",
+    "name_extra": ""
+  },
+  {
+    "id": "LH",
+    "stateId": "NW",
+    "origin": "Lüdinghausen",
+    "name": "Kreis Coesfeld",
+    "name_extra": ""
+  },
+  {
+    "id": "LH",
+    "stateId": "NW",
+    "origin": "Lüdinghausen",
+    "name": "Kreis Unna",
+    "name_extra": ""
+  },
+  {
+    "id": "LI",
+    "stateId": "BY",
+    "origin": "Lindau",
+    "name": "Landkreis Lindau (Bodensee)",
+    "name_extra": ""
+  },
+  {
+    "id": "LIB",
+    "stateId": "BB",
+    "origin": "Liebenwerda",
+    "name": "Landkreis Elbe-Elster",
+    "name_extra": ""
+  },
+  {
+    "id": "LIF",
+    "stateId": "BY",
+    "origin": "Lichtenfels",
+    "name": "Landkreis Lichtenfels",
+    "name_extra": ""
+  },
+  {
+    "id": "LIP",
+    "stateId": "NW",
+    "origin": "Lippe",
+    "name": "Kreis Lippe",
+    "name_extra": ""
+  },
+  {
+    "id": "LL",
+    "stateId": "BY",
+    "origin": "Landsberg am lech",
+    "name": "Landkreis Landsberg am Lech",
+    "name_extra": ""
+  },
+  {
+    "id": "LM",
+    "stateId": "HE",
+    "origin": "Limburg",
+    "name": "Landkreis Limburg-Weilburg",
+    "name_extra": ""
+  },
+  {
+    "id": "LN",
+    "stateId": "BB",
+    "origin": "Lübben",
+    "name": "Landkreis Dahme-Spreewald",
+    "name_extra": ""
+  },
+  {
+    "id": "LÖ",
+    "stateId": "BW",
+    "origin": "Lörrach",
+    "name": "Landkreis Lörrach",
+    "name_extra": ""
+  },
+  {
+    "id": "LÖB",
+    "stateId": "SN",
+    "origin": "Löbau",
+    "name": "Landkreis Görlitz",
+    "name_extra": ""
+  },
+  {
+    "id": "LOS",
+    "stateId": "BB",
+    "origin": "Landkreis oder-spree",
+    "name": "Landkreis Oder-Spree",
+    "name_extra": ""
+  },
+  {
+    "id": "LP",
+    "stateId": "NW",
+    "origin": "Lippstadt",
+    "name": "Kreis Soest",
+    "name_extra": ""
+  },
+  {
+    "id": "LR",
+    "stateId": "BW",
+    "origin": "Lahr",
+    "name": "Ortenaukreis",
+    "name_extra": ""
+  },
+  {
+    "id": "LRO",
+    "stateId": "MV",
+    "origin": "Landkreis rostock",
+    "name": "Landkreis Rostock",
+    "name_extra": ""
+  },
+  {
+    "id": "LSA",
+    "stateId": "ST",
+    "origin": "Land sachsen-anhalt",
+    "name": "Sachsen-Anhalt",
+    "name_extra": "Landesregierung, Landtag und Polizei"
+  },
+  {
+    "id": "LSN",
+    "stateId": "SN",
+    "origin": "Land sachsen",
+    "name": "Sachsen",
+    "name_extra": "Landesregierung und Landtag"
+  },
+  {
+    "id": "LSZ",
+    "stateId": "TH",
+    "origin": "Langensalza",
+    "name": "Unstrut-Hainich-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "LU",
+    "stateId": "RP",
+    "origin": "Ludwigshafen",
+    "name": "Stadt Ludwigshafen am Rhein",
+    "name_extra": ""
+  },
+  {
+    "id": "LÜN",
+    "stateId": "NW",
+    "origin": "Lünen",
+    "name": "Kreis Unna",
+    "name_extra": ""
+  },
+  {
+    "id": "LUP",
+    "stateId": "MV",
+    "origin": "Ludwigslust, parchim",
+    "name": "Landkreis Ludwigslust-Parchim",
+    "name_extra": ""
+  },
+  {
+    "id": "LWL",
+    "stateId": "MV",
+    "origin": "Ludwigslust",
+    "name": "Landkreis Ludwigslust-Parchim",
+    "name_extra": ""
+  },
+  {
+    "id": "M",
+    "stateId": "BY",
+    "origin": "München",
+    "name": "Stadt München",
+    "name_extra": ""
+  },
+  {
+    "id": "M",
+    "stateId": "BY",
+    "origin": "München",
+    "name": "Landkreis München",
+    "name_extra": ""
+  },
+  {
+    "id": "MA",
+    "stateId": "BW",
+    "origin": "Mannheim",
+    "name": "Stadt Mannheim",
+    "name_extra": ""
+  },
+  {
+    "id": "MAB",
+    "stateId": "SN",
+    "origin": "Marienberg",
+    "name": "Erzgebirgskreis",
+    "name_extra": ""
+  },
+  {
+    "id": "MAI",
+    "stateId": "BY",
+    "origin": "Mainburg",
+    "name": "Landkreis Kelheim",
+    "name_extra": ""
+  },
+  {
+    "id": "MAI",
+    "stateId": "BY",
+    "origin": "Mainburg",
+    "name": "Landkreis Landshut",
+    "name_extra": ""
+  },
+  {
+    "id": "MAK",
+    "stateId": "BY",
+    "origin": "Marktredwitz",
+    "name": "Landkreis Wunsiedel im Fichtelgebirge",
+    "name_extra": ""
+  },
+  {
+    "id": "MAL",
+    "stateId": "BY",
+    "origin": "Mallersdorf",
+    "name": "Landkreis Landshut",
+    "name_extra": ""
+  },
+  {
+    "id": "MAL",
+    "stateId": "BY",
+    "origin": "Mallersdorf",
+    "name": "Landkreis Straubing-Bogen",
+    "name_extra": ""
+  },
+  {
+    "id": "MB",
+    "stateId": "BY",
+    "origin": "Miesbach",
+    "name": "Landkreis Miesbach",
+    "name_extra": ""
+  },
+  {
+    "id": "MC",
+    "stateId": "MV",
+    "origin": "Malchin",
+    "name": "Landkreis Mecklenburgische Seenplatte",
+    "name_extra": "ohne die Stadt Neubrandenburg"
+  },
+  {
+    "id": "MD",
+    "stateId": "ST",
+    "origin": "Magdeburg",
+    "name": "Stadt Magdeburg",
+    "name_extra": ""
+  },
+  {
+    "id": "ME",
+    "stateId": "NW",
+    "origin": "Mettmann",
+    "name": "Kreis Mettmann",
+    "name_extra": ""
+  },
+  {
+    "id": "MED",
+    "stateId": "SH",
+    "origin": "Meldorf",
+    "name": "Kreis Dithmarschen",
+    "name_extra": ""
+  },
+  {
+    "id": "MEG",
+    "stateId": "HE",
+    "origin": "Melsungen",
+    "name": "Schwalm-Eder-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "MEI",
+    "stateId": "SN",
+    "origin": "Meißen",
+    "name": "Landkreis Meißen",
+    "name_extra": ""
+  },
+  {
+    "id": "MEK",
+    "stateId": "SN",
+    "origin": "Mittlerer erzgebirgskreis",
+    "name": "Erzgebirgskreis",
+    "name_extra": ""
+  },
+  {
+    "id": "MEL",
+    "stateId": "NI",
+    "origin": "Melle",
+    "name": "Landkreis Osnabrück",
+    "name_extra": ""
+  },
+  {
+    "id": "MER",
+    "stateId": "ST",
+    "origin": "Merseburg",
+    "name": "Saalekreis",
+    "name_extra": ""
+  },
+  {
+    "id": "MET",
+    "stateId": "BY",
+    "origin": "Mellrichstadt",
+    "name": "Landkreis Rhön-Grabfeld",
+    "name_extra": ""
+  },
+  {
+    "id": "MG",
+    "stateId": "NW",
+    "origin": "Mönchengladbach",
+    "name": "Stadt Mönchengladbach",
+    "name_extra": ""
+  },
+  {
+    "id": "MGH",
+    "stateId": "BW",
+    "origin": "Mergentheim",
+    "name": "Main-Tauber-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "MGN",
+    "stateId": "TH",
+    "origin": "Meiningen",
+    "name": "Landkreis Schmalkalden-Meiningen",
+    "name_extra": ""
+  },
+  {
+    "id": "MH",
+    "stateId": "NW",
+    "origin": "Mülheim",
+    "name": "Stadt Mülheim an der Ruhr",
+    "name_extra": ""
+  },
+  {
+    "id": "MHL",
+    "stateId": "TH",
+    "origin": "Mühlhausen",
+    "name": "Unstrut-Hainich-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "MI",
+    "stateId": "NW",
+    "origin": "Minden",
+    "name": "Kreis Minden-Lübbecke",
+    "name_extra": ""
+  },
+  {
+    "id": "MIL",
+    "stateId": "BY",
+    "origin": "Miltenberg",
+    "name": "Landkreis Miltenberg",
+    "name_extra": ""
+  },
+  {
+    "id": "MK",
+    "stateId": "NW",
+    "origin": "Märkischer kreis",
+    "name": "Märkischer Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "MKK",
+    "stateId": "HE",
+    "origin": "Main-kinzig-kreis",
+    "name": "Main-Kinzig-Kreis",
+    "name_extra": "ohne die Stadt Hanau"
+  },
+  {
+    "id": "ML",
+    "stateId": "ST",
+    "origin": "Mansfelder land",
+    "name": "Landkreis Mansfeld-Südharz",
+    "name_extra": ""
+  },
+  {
+    "id": "MM",
+    "stateId": "BY",
+    "origin": "Memmingen",
+    "name": "Stadt Memmingen",
+    "name_extra": ""
+  },
+  {
+    "id": "MN",
+    "stateId": "BY",
+    "origin": "Mindelheim",
+    "name": "Landkreis Unterallgäu",
+    "name_extra": ""
+  },
+  {
+    "id": "MO",
+    "stateId": "NW",
+    "origin": "Moers",
+    "name": "Kreis Wesel",
+    "name_extra": ""
+  },
+  {
+    "id": "MOD",
+    "stateId": "BY",
+    "origin": "Marktoberdorf",
+    "name": "Landkreis Ostallgäu",
+    "name_extra": ""
+  },
+  {
+    "id": "MOL",
+    "stateId": "BB",
+    "origin": "Märkisch-oderland",
+    "name": "Landkreis Märkisch-Oderland",
+    "name_extra": ""
+  },
+  {
+    "id": "MON",
+    "stateId": "NW",
+    "origin": "Monschau",
+    "name": "Städteregion Aachen",
+    "name_extra": ""
+  },
+  {
+    "id": "MON",
+    "stateId": "NW",
+    "origin": "Monschau",
+    "name": "Kreis Düren",
+    "name_extra": ""
+  },
+  {
+    "id": "MOS",
+    "stateId": "BW",
+    "origin": "Mosbach",
+    "name": "Neckar-Odenwald-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "MQ",
+    "stateId": "ST",
+    "origin": "Merseburg, querfurt",
+    "name": "Saalekreis",
+    "name_extra": ""
+  },
+  {
+    "id": "MR",
+    "stateId": "HE",
+    "origin": "Marburg",
+    "name": "Landkreis Marburg-Biedenkopf",
+    "name_extra": ""
+  },
+  {
+    "id": "MS",
+    "stateId": "NW",
+    "origin": "Münster",
+    "name": "Stadt Münster",
+    "name_extra": ""
+  },
+  {
+    "id": "MSE",
+    "stateId": "MV",
+    "origin": "Mecklenburgische seenplatte",
+    "name": "Landkreis Mecklenburgische Seenplatte",
+    "name_extra": "ohne die Stadt Neubrandenburg"
+  },
+  {
+    "id": "MSH",
+    "stateId": "ST",
+    "origin": "Mansfeld, südharz",
+    "name": "Landkreis Mansfeld-Südharz",
+    "name_extra": ""
+  },
+  {
+    "id": "MSP",
+    "stateId": "BY",
+    "origin": "Main, spessart",
+    "name": "Landkreis Main-Spessart",
+    "name_extra": ""
+  },
+  {
+    "id": "MST",
+    "stateId": "MV",
+    "origin": "Mecklenburg-strelitz",
+    "name": "Landkreis Mecklenburgische Seenplatte",
+    "name_extra": "ohne die Stadt Neubrandenburg"
+  },
+  {
+    "id": "MTK",
+    "stateId": "HE",
+    "origin": "Main-taunus-kreis",
+    "name": "Main-Taunus-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "MTL",
+    "stateId": "SN",
+    "origin": "Muldental",
+    "name": "Landkreis Leipzig",
+    "name_extra": ""
+  },
+  {
+    "id": "MÜ",
+    "stateId": "BY",
+    "origin": "Mühldorf",
+    "name": "Landkreis Mühldorf am Inn",
+    "name_extra": ""
+  },
+  {
+    "id": "MÜB",
+    "stateId": "BY",
+    "origin": "Münchberg",
+    "name": "Landkreis Bayreuth",
+    "name_extra": ""
+  },
+  {
+    "id": "MÜB",
+    "stateId": "BY",
+    "origin": "Münchberg",
+    "name": "Landkreis Hof",
+    "name_extra": ""
+  },
+  {
+    "id": "MÜR",
+    "stateId": "MV",
+    "origin": "Müritz",
+    "name": "Landkreis Mecklenburgische Seenplatte",
+    "name_extra": "ohne die Stadt Neubrandenburg"
+  },
+  {
+    "id": "MVL",
+    "stateId": "MV",
+    "origin": "Mecklenburg-vorpommerscher landtag",
+    "name": "Mecklenburg-Vorpommern",
+    "name_extra": "Landesregierung, Landtag und Polizei"
+  },
+  {
+    "id": "MW",
+    "stateId": "SN",
+    "origin": "Mittweida",
+    "name": "Landkreis Mittelsachsen",
+    "name_extra": ""
+  },
+  {
+    "id": "MY",
+    "stateId": "RP",
+    "origin": "Mayen",
+    "name": "Landkreis Mayen-Koblenz",
+    "name_extra": ""
+  },
+  {
+    "id": "MYK",
+    "stateId": "RP",
+    "origin": "Mayen, koblenz",
+    "name": "Landkreis Mayen-Koblenz",
+    "name_extra": ""
+  },
+  {
+    "id": "MZ",
+    "stateId": "RP",
+    "origin": "Mainz",
+    "name": "Stadt Mainz",
+    "name_extra": ""
+  },
+  {
+    "id": "MZ",
+    "stateId": "RP",
+    "origin": "Mainz",
+    "name": "Landkreis Mainz-Bingen",
+    "name_extra": ""
+  },
+  {
+    "id": "MZG",
+    "stateId": "SL",
+    "origin": "Merzig",
+    "name": "Landkreis Merzig-Wadern",
+    "name_extra": ""
+  },
+  {
+    "id": "N",
+    "stateId": "BY",
+    "origin": "Nürnberg",
+    "name": "Stadt Nürnberg",
+    "name_extra": ""
+  },
+  {
+    "id": "N",
+    "stateId": "BY",
+    "origin": "Nürnberg",
+    "name": "Landkreis Nürnberger Land",
+    "name_extra": ""
+  },
+  {
+    "id": "NAB",
+    "stateId": "BY",
+    "origin": "Nabburg",
+    "name": "Landkreis Amberg-Sulzbach",
+    "name_extra": ""
+  },
+  {
+    "id": "NAB",
+    "stateId": "BY",
+    "origin": "Nabburg",
+    "name": "Landkreis Schwandorf",
+    "name_extra": ""
+  },
+  {
+    "id": "NAI",
+    "stateId": "BY",
+    "origin": "Naila",
+    "name": "Landkreis Hof",
+    "name_extra": ""
+  },
+  {
+    "id": "NAU",
+    "stateId": "BB",
+    "origin": "Nauen",
+    "name": "Landkreis Havelland",
+    "name_extra": ""
+  },
+  {
+    "id": "NB",
+    "stateId": "MV",
+    "origin": "Neubrandenburg",
+    "name": "Stadt Neubrandenburg",
+    "name_extra": "große kreisangehörige Stadt im Landkreis Mecklenburgische Seenplatte"
+  },
+  {
+    "id": "ND",
+    "stateId": "BY",
+    "origin": "Neuburg an der donau",
+    "name": "Landkreis Neuburg-Schrobenhausen",
+    "name_extra": ""
+  },
+  {
+    "id": "NDH",
+    "stateId": "TH",
+    "origin": "Nordhausen",
+    "name": "Landkreis Nordhausen",
+    "name_extra": ""
+  },
+  {
+    "id": "NE",
+    "stateId": "NW",
+    "origin": "Neuss",
+    "name": "Rhein-Kreis Neuss",
+    "name_extra": ""
+  },
+  {
+    "id": "NEA",
+    "stateId": "BY",
+    "origin": "Neustadt an der aisch",
+    "name": "Landkreis Neustadt an der Aisch-Bad Windsheim",
+    "name_extra": ""
+  },
+  {
+    "id": "NEB",
+    "stateId": "ST",
+    "origin": "Nebra",
+    "name": "Burgenlandkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "NEC",
+    "stateId": "BY",
+    "origin": "Neustadt bei coburg",
+    "name": "Stadt Coburg",
+    "name_extra": ""
+  },
+  {
+    "id": "NEC",
+    "stateId": "BY",
+    "origin": "Neustadt bei coburg",
+    "name": "Landkreis Coburg",
+    "name_extra": ""
+  },
+  {
+    "id": "NEN",
+    "stateId": "BY",
+    "origin": "Neunburg",
+    "name": "Landkreis Schwandorf",
+    "name_extra": ""
+  },
+  {
+    "id": "NES",
+    "stateId": "BY",
+    "origin": "Neustadt an der saale",
+    "name": "Landkreis Rhön-Grabfeld",
+    "name_extra": ""
+  },
+  {
+    "id": "NEW",
+    "stateId": "BY",
+    "origin": "Neustadt an der waldnaab",
+    "name": "Landkreis Neustadt an der Waldnaab",
+    "name_extra": ""
+  },
+  {
+    "id": "NF",
+    "stateId": "SH",
+    "origin": "Nordfriesland",
+    "name": "Kreis Nordfriesland",
+    "name_extra": ""
+  },
+  {
+    "id": "NH",
+    "stateId": "TH",
+    "origin": "Neuhaus",
+    "name": "Landkreis Sonneberg",
+    "name_extra": ""
+  },
+  {
+    "id": "NI",
+    "stateId": "NI",
+    "origin": "Nienburg",
+    "name": "Landkreis Nienburg/Weser",
+    "name_extra": ""
+  },
+  {
+    "id": "NK",
+    "stateId": "SL",
+    "origin": "Neunkirchen",
+    "name": "Landkreis Neunkirchen",
+    "name_extra": ""
+  },
+  {
+    "id": "NL",
+    "stateId": "NI",
+    "origin": "Niedersächsischer landtag",
+    "name": "Niedersachsen",
+    "name_extra": "Landesregierung und Landtag"
+  },
+  {
+    "id": "NM",
+    "stateId": "BY",
+    "origin": "Neumarkt",
+    "name": "Landkreis Neumarkt in der Oberpfalz",
+    "name_extra": ""
+  },
+  {
+    "id": "NMB",
+    "stateId": "ST",
+    "origin": "Naumburg",
+    "name": "Burgenlandkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "NMS",
+    "stateId": "SH",
+    "origin": "Neumünster",
+    "name": "Stadt Neumünster",
+    "name_extra": ""
+  },
+  {
+    "id": "NÖ",
+    "stateId": "BY",
+    "origin": "Nördlingen",
+    "name": "Landkreis Donau-Ries",
+    "name_extra": ""
+  },
+  {
+    "id": "NOH",
+    "stateId": "NI",
+    "origin": "Nordhorn",
+    "name": "Landkreis Grafschaft Bentheim ",
+    "name_extra": ""
+  },
+  {
+    "id": "NOL",
+    "stateId": "SN",
+    "origin": "Niederschlesische oberlausitz",
+    "name": "Landkreis Görlitz",
+    "name_extra": ""
+  },
+  {
+    "id": "NOM",
+    "stateId": "NI",
+    "origin": "Northeim",
+    "name": "Landkreis Northeim",
+    "name_extra": ""
+  },
+  {
+    "id": "NOR",
+    "stateId": "NI",
+    "origin": "Norden",
+    "name": "Landkreis Aurich",
+    "name_extra": ""
+  },
+  {
+    "id": "NP",
+    "stateId": "BB",
+    "origin": "Neuruppin",
+    "name": "Landkreis Ostprignitz-Ruppin",
+    "name_extra": ""
+  },
+  {
+    "id": "NR",
+    "stateId": "RP",
+    "origin": "Neuwied am rhein",
+    "name": "Landkreis Neuwied",
+    "name_extra": ""
+  },
+  {
+    "id": "NRW",
+    "stateId": "NW",
+    "origin": "Nordrhein-westfalen",
+    "name": "Nordrhein-Westfalen",
+    "name_extra": "Landesregierung, Landtag und Polizei"
+  },
+  {
+    "id": "NT",
+    "stateId": "BW",
+    "origin": "Nürtingen",
+    "name": "Landkreis Esslingen",
+    "name_extra": ""
+  },
+  {
+    "id": "NU",
+    "stateId": "BY",
+    "origin": "Neu-ulm",
+    "name": "Landkreis Neu-Ulm",
+    "name_extra": ""
+  },
+  {
+    "id": "NVP",
+    "stateId": "MV",
+    "origin": "Nordvorpommern",
+    "name": "Landkreis Vorpommern-Rügen",
+    "name_extra": "ohne die Stadt Stralsund"
+  },
+  {
+    "id": "NW",
+    "stateId": "RP",
+    "origin": "Neustadt an der weinstraße",
+    "name": "Stadt Neustadt an der Weinstraße",
+    "name_extra": ""
+  },
+  {
+    "id": "NWM",
+    "stateId": "MV",
+    "origin": "Nordwestmecklenburg",
+    "name": "Landkreis Nordwestmecklenburg",
+    "name_extra": "ohne die Stadt Wismar"
+  },
+  {
+    "id": "NY",
+    "stateId": "SN",
+    "origin": "Niesky",
+    "name": "Landkreis Görlitz",
+    "name_extra": ""
+  },
+  {
+    "id": "NZ",
+    "stateId": "MV",
+    "origin": "Neustrelitz",
+    "name": "Landkreis Mecklenburgische Seenplatte",
+    "name_extra": "ohne die Stadt Neubrandenburg"
+  },
+  {
+    "id": "OA",
+    "stateId": "BY",
+    "origin": "Oberallgäu",
+    "name": "Landkreis Oberallgäu",
+    "name_extra": ""
+  },
+  {
+    "id": "OAL",
+    "stateId": "BY",
+    "origin": "Ostallgäu",
+    "name": "Landkreis Ostallgäu",
+    "name_extra": ""
+  },
+  {
+    "id": "OB",
+    "stateId": "NW",
+    "origin": "Oberhausen",
+    "name": "Stadt Oberhausen",
+    "name_extra": ""
+  },
+  {
+    "id": "OBB",
+    "stateId": "BY",
+    "origin": "Obernburg",
+    "name": "Landkreis Miltenberg",
+    "name_extra": ""
+  },
+  {
+    "id": "OBG",
+    "stateId": "ST",
+    "origin": "Osterburg",
+    "name": "Landkreis Stendal",
+    "name_extra": ""
+  },
+  {
+    "id": "OC",
+    "stateId": "ST",
+    "origin": "Oschersleben",
+    "name": "Landkreis Börde",
+    "name_extra": ""
+  },
+  {
+    "id": "OCH",
+    "stateId": "BY",
+    "origin": "Ochsenfurt",
+    "name": "Landkreis Würzburg",
+    "name_extra": ""
+  },
+  {
+    "id": "OD",
+    "stateId": "SH",
+    "origin": "Oldesloe",
+    "name": "Kreis Stormarn",
+    "name_extra": ""
+  },
+  {
+    "id": "OE",
+    "stateId": "NW",
+    "origin": "Olpe",
+    "name": "Kreis Olpe",
+    "name_extra": ""
+  },
+  {
+    "id": "OF",
+    "stateId": "HE",
+    "origin": "Offenbach",
+    "name": "Landkreis Offenbach",
+    "name_extra": ""
+  },
+  {
+    "id": "OF",
+    "stateId": "HE",
+    "origin": "Offenbach",
+    "name": "Stadt Offenbach am Main",
+    "name_extra": ""
+  },
+  {
+    "id": "OG",
+    "stateId": "BW",
+    "origin": "Offenburg",
+    "name": "Ortenaukreis",
+    "name_extra": ""
+  },
+  {
+    "id": "OH",
+    "stateId": "SH",
+    "origin": "Ostholstein",
+    "name": "Kreis Ostholstein",
+    "name_extra": ""
+  },
+  {
+    "id": "OHA",
+    "stateId": "NI",
+    "origin": "Osterode am harz",
+    "name": "Landkreis Göttingen",
+    "name_extra": ""
+  },
+  {
+    "id": "ÖHR",
+    "stateId": "BW",
+    "origin": "Öhringen",
+    "name": "Hohenlohekreis",
+    "name_extra": ""
+  },
+  {
+    "id": "OHV",
+    "stateId": "BB",
+    "origin": "Oberhavel",
+    "name": "Landkreis Oberhavel",
+    "name_extra": ""
+  },
+  {
+    "id": "OHZ",
+    "stateId": "NI",
+    "origin": "Osterholz",
+    "name": "Landkreis Osterholz",
+    "name_extra": ""
+  },
+  {
+    "id": "OK",
+    "stateId": "ST",
+    "origin": "Ohrekreis",
+    "name": "Landkreis Börde",
+    "name_extra": ""
+  },
+  {
+    "id": "OL",
+    "stateId": "NI",
+    "origin": "Oldenburg",
+    "name": "Stadt Oldenburg",
+    "name_extra": ""
+  },
+  {
+    "id": "OL",
+    "stateId": "NI",
+    "origin": "Oldenburg",
+    "name": "Landkreis Oldenburg",
+    "name_extra": ""
+  },
+  {
+    "id": "OP",
+    "stateId": "NW",
+    "origin": "Opladen",
+    "name": "Stadt Leverkusen",
+    "name_extra": ""
+  },
+  {
+    "id": "OPR",
+    "stateId": "BB",
+    "origin": "Ostprignitz, ruppin",
+    "name": "Landkreis Ostprignitz-Ruppin",
+    "name_extra": ""
+  },
+  {
+    "id": "OS",
+    "stateId": "NI",
+    "origin": "Osnabrück",
+    "name": "Stadt Osnabrück",
+    "name_extra": ""
+  },
+  {
+    "id": "OS",
+    "stateId": "NI",
+    "origin": "Osnabrück",
+    "name": "Landkreis Osnabrück",
+    "name_extra": ""
+  },
+  {
+    "id": "OSL",
+    "stateId": "BB",
+    "origin": "Oberspreewald, lausitz",
+    "name": "Landkreis Oberspreewald-Lausitz",
+    "name_extra": ""
+  },
+  {
+    "id": "OVI",
+    "stateId": "BY",
+    "origin": "Oberviechtach",
+    "name": "Landkreis Schwandorf",
+    "name_extra": ""
+  },
+  {
+    "id": "OVL",
+    "stateId": "SN",
+    "origin": "Obervogtland",
+    "name": "Vogtlandkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "OZ",
+    "stateId": "SN",
+    "origin": "Oschatz",
+    "name": "Landkreis Nordsachsen",
+    "name_extra": ""
+  },
+  {
+    "id": "P",
+    "stateId": "BB",
+    "origin": "Potsdam",
+    "name": "Stadt Potsdam",
+    "name_extra": ""
+  },
+  {
+    "id": "PA",
+    "stateId": "BY",
+    "origin": "Passau",
+    "name": "Stadt Passau",
+    "name_extra": ""
+  },
+  {
+    "id": "PA",
+    "stateId": "BY",
+    "origin": "Passau",
+    "name": "Landkreis Passau",
+    "name_extra": ""
+  },
+  {
+    "id": "PAF",
+    "stateId": "BY",
+    "origin": "Pfaffenhofen",
+    "name": "Landkreis Pfaffenhofen an der Ilm",
+    "name_extra": ""
+  },
+  {
+    "id": "PAN",
+    "stateId": "BY",
+    "origin": "Pfarrkirchen",
+    "name": "Landkreis Rottal-Inn",
+    "name_extra": ""
+  },
+  {
+    "id": "PAR",
+    "stateId": "BY",
+    "origin": "Parsberg",
+    "name": "Landkreis Kelheim",
+    "name_extra": ""
+  },
+  {
+    "id": "PAR",
+    "stateId": "BY",
+    "origin": "Parsberg",
+    "name": "Landkreis Neumarkt in der Oberpfalz",
+    "name_extra": ""
+  },
+  {
+    "id": "PB",
+    "stateId": "NW",
+    "origin": "Paderborn",
+    "name": "Kreis Paderborn",
+    "name_extra": ""
+  },
+  {
+    "id": "PCH",
+    "stateId": "MV",
+    "origin": "Parchim",
+    "name": "Landkreis Ludwigslust-Parchim",
+    "name_extra": ""
+  },
+  {
+    "id": "PE",
+    "stateId": "NI",
+    "origin": "Peine",
+    "name": "Landkreis Peine",
+    "name_extra": ""
+  },
+  {
+    "id": "PEG",
+    "stateId": "BY",
+    "origin": "Pegnitz",
+    "name": "Landkreis Bayreuth",
+    "name_extra": ""
+  },
+  {
+    "id": "PEG",
+    "stateId": "BY",
+    "origin": "Pegnitz",
+    "name": "Landkreis Forchheim",
+    "name_extra": ""
+  },
+  {
+    "id": "PEG",
+    "stateId": "BY",
+    "origin": "Pegnitz",
+    "name": "Landkreis Nürnberger Land",
+    "name_extra": ""
+  },
+  {
+    "id": "PF",
+    "stateId": "BW",
+    "origin": "Pforzheim",
+    "name": "Stadt Pforzheim",
+    "name_extra": ""
+  },
+  {
+    "id": "PF",
+    "stateId": "BW",
+    "origin": "Pforzheim",
+    "name": "Enzkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "PI",
+    "stateId": "SH",
+    "origin": "Pinneberg",
+    "name": "Kreis Pinneberg",
+    "name_extra": ""
+  },
+  {
+    "id": "PIR",
+    "stateId": "SN",
+    "origin": "Pirna",
+    "name": "Landkreis Sächsische Schweiz-Osterzgebirge",
+    "name_extra": ""
+  },
+  {
+    "id": "PL",
+    "stateId": "SN",
+    "origin": "Plauen",
+    "name": "Vogtlandkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "PLÖ",
+    "stateId": "SH",
+    "origin": "Plön",
+    "name": "Kreis Plön",
+    "name_extra": ""
+  },
+  {
+    "id": "PM",
+    "stateId": "BB",
+    "origin": "Potsdam, mittelmark",
+    "name": "Landkreis Potsdam-Mittelmark",
+    "name_extra": ""
+  },
+  {
+    "id": "PN",
+    "stateId": "TH",
+    "origin": "Pößneck",
+    "name": "Saale-Orla-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "PR",
+    "stateId": "BB",
+    "origin": "Prignitz",
+    "name": "Landkreis Prignitz",
+    "name_extra": ""
+  },
+  {
+    "id": "PRÜ",
+    "stateId": "RP",
+    "origin": "Prüm",
+    "name": "Eifelkreis Bitburg-Prüm",
+    "name_extra": ""
+  },
+  {
+    "id": "PS",
+    "stateId": "RP",
+    "origin": "Pirmasens",
+    "name": "Stadt Pirmasens",
+    "name_extra": ""
+  },
+  {
+    "id": "PS",
+    "stateId": "RP",
+    "origin": "Pirmasens",
+    "name": "Landkreis Südwestpfalz",
+    "name_extra": ""
+  },
+  {
+    "id": "PW",
+    "stateId": "MV",
+    "origin": "Pasewalk",
+    "name": "Landkreis Vorpommern-Greifswald",
+    "name_extra": "ohne die Stadt Greifswald"
+  },
+  {
+    "id": "PZ",
+    "stateId": "BB",
+    "origin": "Prenzlau",
+    "name": "Landkreis Uckermark",
+    "name_extra": ""
+  },
+  {
+    "id": "QFT",
+    "stateId": "ST",
+    "origin": "Querfurt",
+    "name": "Saalekreis",
+    "name_extra": ""
+  },
+  {
+    "id": "QLB",
+    "stateId": "ST",
+    "origin": "Quedlinburg",
+    "name": "Landkreis Harz",
+    "name_extra": ""
+  },
+  {
+    "id": "R",
+    "stateId": "BY",
+    "origin": "Regensburg",
+    "name": "Stadt Regensburg",
+    "name_extra": ""
+  },
+  {
+    "id": "R",
+    "stateId": "BY",
+    "origin": "Regensburg",
+    "name": "Landkreis Regensburg",
+    "name_extra": ""
+  },
+  {
+    "id": "RA",
+    "stateId": "BW",
+    "origin": "Rastatt",
+    "name": "Landkreis Rastatt",
+    "name_extra": ""
+  },
+  {
+    "id": "RC",
+    "stateId": "SN",
+    "origin": "Reichenbach",
+    "name": "Vogtlandkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "RD",
+    "stateId": "SH",
+    "origin": "Rendsburg",
+    "name": "Kreis Rendsburg-Eckernförde",
+    "name_extra": ""
+  },
+  {
+    "id": "RDG",
+    "stateId": "MV",
+    "origin": "Ribnitz-damgarten",
+    "name": "Landkreis Vorpommern-Rügen",
+    "name_extra": "ohne die Stadt Stralsund"
+  },
+  {
+    "id": "RE",
+    "stateId": "NW",
+    "origin": "Recklinghausen",
+    "name": "Kreis Recklinghausen",
+    "name_extra": ""
+  },
+  {
+    "id": "REG",
+    "stateId": "BY",
+    "origin": "Regen",
+    "name": "Landkreis Regen",
+    "name_extra": ""
+  },
+  {
+    "id": "REH",
+    "stateId": "BY",
+    "origin": "Rehau",
+    "name": "Landkreis Hof",
+    "name_extra": ""
+  },
+  {
+    "id": "REH",
+    "stateId": "BY",
+    "origin": "Rehau",
+    "name": "Landkreis Wunsiedel im Fichtelgebirge",
+    "name_extra": ""
+  },
+  {
+    "id": "REI",
+    "stateId": "BY",
+    "origin": "Bad reichenhall",
+    "name": "Landkreis Berchtesgadener Land",
+    "name_extra": ""
+  },
+  {
+    "id": "RG",
+    "stateId": "SN",
+    "origin": "Riesa, großenhain",
+    "name": "Landkreis Meißen",
+    "name_extra": ""
+  },
+  {
+    "id": "RH",
+    "stateId": "BY",
+    "origin": "Roth",
+    "name": "Landkreis Roth",
+    "name_extra": ""
+  },
+  {
+    "id": "RI",
+    "stateId": "NI",
+    "origin": "Rinteln",
+    "name": "Landkreis Schaumburg",
+    "name_extra": ""
+  },
+  {
+    "id": "RID",
+    "stateId": "BY",
+    "origin": "Riedenburg",
+    "name": "Landkreis Kelheim",
+    "name_extra": ""
+  },
+  {
+    "id": "RIE",
+    "stateId": "SN",
+    "origin": "Riesa",
+    "name": "Landkreis Meißen",
+    "name_extra": ""
+  },
+  {
+    "id": "RL",
+    "stateId": "SN",
+    "origin": "Rochlitz",
+    "name": "Landkreis Mittelsachsen",
+    "name_extra": ""
+  },
+  {
+    "id": "RM",
+    "stateId": "MV",
+    "origin": "Röbel/müritz",
+    "name": "Landkreis Mecklenburgische Seenplatte",
+    "name_extra": "ohne die Stadt Neubrandenburg"
+  },
+  {
+    "id": "RN",
+    "stateId": "BB",
+    "origin": "Rathenow",
+    "name": "Landkreis Havelland",
+    "name_extra": ""
+  },
+  {
+    "id": "RO",
+    "stateId": "BY",
+    "origin": "Rosenheim",
+    "name": "Stadt Rosenheim",
+    "name_extra": ""
+  },
+  {
+    "id": "RO",
+    "stateId": "BY",
+    "origin": "Rosenheim",
+    "name": "Landkreis Rosenheim",
+    "name_extra": ""
+  },
+  {
+    "id": "ROD",
+    "stateId": "BY",
+    "origin": "Roding",
+    "name": "Landkreis Cham",
+    "name_extra": ""
+  },
+  {
+    "id": "ROD",
+    "stateId": "BY",
+    "origin": "Roding",
+    "name": "Landkreis Schwandorf",
+    "name_extra": ""
+  },
+  {
+    "id": "ROF",
+    "stateId": "HE",
+    "origin": "Rotenburg an der fulda",
+    "name": "Landkreis Hersfeld-Rotenburg",
+    "name_extra": ""
+  },
+  {
+    "id": "ROK",
+    "stateId": "RP",
+    "origin": "Rockenhausen",
+    "name": "Donnersbergkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "ROL",
+    "stateId": "BY",
+    "origin": "Rottenburg an der laaber",
+    "name": "Landkreis Kelheim",
+    "name_extra": ""
+  },
+  {
+    "id": "ROL",
+    "stateId": "BY",
+    "origin": "Rottenburg an der laaber",
+    "name": "Landkreis Landshut",
+    "name_extra": ""
+  },
+  {
+    "id": "ROS",
+    "stateId": "MV",
+    "origin": "Rostock",
+    "name": "Landkreis Rostock",
+    "name_extra": ""
+  },
+  {
+    "id": "ROT",
+    "stateId": "BY",
+    "origin": "Rothenburg ob der tauber",
+    "name": "Landkreis Ansbach",
+    "name_extra": ""
+  },
+  {
+    "id": "ROW",
+    "stateId": "NI",
+    "origin": "Rotenburg (wümme)",
+    "name": "Landkreis Rotenburg (Wümme)",
+    "name_extra": ""
+  },
+  {
+    "id": "RP",
+    "stateId": "RP",
+    "origin": "Rhein-pfalz",
+    "name": "Rhein-Pfalz-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "RPL",
+    "stateId": "RP",
+    "origin": "Rheinland-pfälzischer landtag",
+    "name": "Rheinland-Pfalz",
+    "name_extra": "Landesregierung, Landtag und Polizei"
+  },
+  {
+    "id": "RS",
+    "stateId": "NW",
+    "origin": "Remscheid",
+    "name": "Stadt Remscheid",
+    "name_extra": ""
+  },
+  {
+    "id": "RSL",
+    "stateId": "ST",
+    "origin": "Rosslau",
+    "name": "Stadt Dessau-Roßlau",
+    "name_extra": ""
+  },
+  {
+    "id": "RT",
+    "stateId": "BW",
+    "origin": "Reutlingen",
+    "name": "Landkreis Reutlingen",
+    "name_extra": ""
+  },
+  {
+    "id": "RU",
+    "stateId": "TH",
+    "origin": "Rudolstadt",
+    "name": "Landkreis Saalfeld-Rudolstadt",
+    "name_extra": ""
+  },
+  {
+    "id": "RÜD",
+    "stateId": "HE",
+    "origin": "Rüdesheim",
+    "name": "Rheingau-Taunus-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "RÜG",
+    "stateId": "MV",
+    "origin": "Rügen",
+    "name": "Landkreis Vorpommern-Rügen",
+    "name_extra": ""
+  },
+  {
+    "id": "RV",
+    "stateId": "BW",
+    "origin": "Ravensburg",
+    "name": "Landkreis Ravensburg",
+    "name_extra": ""
+  },
+  {
+    "id": "RW",
+    "stateId": "BW",
+    "origin": "Rottweil",
+    "name": "Landkreis Rottweil",
+    "name_extra": ""
+  },
+  {
+    "id": "RZ",
+    "stateId": "SH",
+    "origin": "Ratzeburg",
+    "name": "Kreis Herzogtum Lauenburg",
+    "name_extra": ""
+  },
+  {
+    "id": "S",
+    "stateId": "BW",
+    "origin": "Stuttgart",
+    "name": "Stadt Stuttgart",
+    "name_extra": ""
+  },
+  {
+    "id": "SAB",
+    "stateId": "RP",
+    "origin": "Saarburg",
+    "name": "Landkreis Trier-Saarburg",
+    "name_extra": ""
+  },
+  {
+    "id": "SAD",
+    "stateId": "BY",
+    "origin": "Schwandorf",
+    "name": "Landkreis Schwandorf",
+    "name_extra": ""
+  },
+  {
+    "id": "SAL",
+    "stateId": "SL",
+    "origin": "Saarländischer landtag",
+    "name": "Saarland",
+    "name_extra": "Landesregierung, Landtag und Polizei"
+  },
+  {
+    "id": "SAN",
+    "stateId": "BY",
+    "origin": "Stadtsteinach",
+    "name": "Landkreis Hof",
+    "name_extra": ""
+  },
+  {
+    "id": "SAN",
+    "stateId": "BY",
+    "origin": "Stadtsteinach",
+    "name": "Landkreis Kronach",
+    "name_extra": ""
+  },
+  {
+    "id": "SAN",
+    "stateId": "BY",
+    "origin": "Stadtsteinach",
+    "name": "Landkreis Kulmbach",
+    "name_extra": ""
+  },
+  {
+    "id": "SAW",
+    "stateId": "ST",
+    "origin": "Salzwedel",
+    "name": "Altmarkkreis Salzwedel",
+    "name_extra": ""
+  },
+  {
+    "id": "SB",
+    "stateId": "SL",
+    "origin": "Saarbrücken",
+    "name": "Regionalverband Saarbrücken",
+    "name_extra": "ohne die Stadt Völklingen"
+  },
+  {
+    "id": "SBG",
+    "stateId": "MV",
+    "origin": "Strasburg",
+    "name": "Landkreis Vorpommern-Greifswald",
+    "name_extra": ""
+  },
+  {
+    "id": "SBK",
+    "stateId": "ST",
+    "origin": "Schönebeck",
+    "name": "Salzlandkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "SC",
+    "stateId": "BY",
+    "origin": "Schwabach",
+    "name": "Stadt Schwabach",
+    "name_extra": ""
+  },
+  {
+    "id": "SCZ",
+    "stateId": "TH",
+    "origin": "Schleiz",
+    "name": "Saale-Orla-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "SDH",
+    "stateId": "TH",
+    "origin": "Sondershausen",
+    "name": "Kyffhäuserkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "SDL",
+    "stateId": "ST",
+    "origin": "Stendal",
+    "name": "Landkreis Stendal",
+    "name_extra": ""
+  },
+  {
+    "id": "SDT",
+    "stateId": "BB",
+    "origin": "Schwedt",
+    "name": "Landkreis Uckermark",
+    "name_extra": ""
+  },
+  {
+    "id": "SE",
+    "stateId": "SH",
+    "origin": "Segeberg",
+    "name": "Kreis Segeberg",
+    "name_extra": ""
+  },
+  {
+    "id": "SEB",
+    "stateId": "SN",
+    "origin": "Sebnitz",
+    "name": "Landkreis Sächsische Schweiz-Osterzgebirge",
+    "name_extra": ""
+  },
+  {
+    "id": "SEE",
+    "stateId": "BB",
+    "origin": "Seelow",
+    "name": "Landkreis Märkisch-Oderland",
+    "name_extra": ""
+  },
+  {
+    "id": "SEF",
+    "stateId": "BY",
+    "origin": "Scheinfeld",
+    "name": "Landkreis Neustadt an der Aisch-Bad Windsheim",
+    "name_extra": ""
+  },
+  {
+    "id": "SEL",
+    "stateId": "BY",
+    "origin": "Selb",
+    "name": "Landkreis Wunsiedel im Fichtelgebirge",
+    "name_extra": ""
+  },
+  {
+    "id": "SFB",
+    "stateId": "BB",
+    "origin": "Senftenberg",
+    "name": "Landkreis Oberspreewald-Lausitz",
+    "name_extra": ""
+  },
+  {
+    "id": "SFT",
+    "stateId": "ST",
+    "origin": "Staßfurt",
+    "name": "Salzlandkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "SG",
+    "stateId": "NW",
+    "origin": "Solingen",
+    "name": "Stadt Solingen",
+    "name_extra": ""
+  },
+  {
+    "id": "SGH",
+    "stateId": "ST",
+    "origin": "Sangerhausen",
+    "name": "Landkreis Mansfeld-Südharz",
+    "name_extra": ""
+  },
+  {
+    "id": "SH",
+    "stateId": "SH",
+    "origin": "Schleswig-holstein",
+    "name": "Schleswig-Holstein",
+    "name_extra": "Landesregierung, Landtag und Polizei"
+  },
+  {
+    "id": "SHA",
+    "stateId": "BW",
+    "origin": "Schwäbisch hall",
+    "name": "Landkreis Schwäbisch Hall",
+    "name_extra": ""
+  },
+  {
+    "id": "SHG",
+    "stateId": "NI",
+    "origin": "Stadthagen",
+    "name": "Landkreis Schaumburg",
+    "name_extra": ""
+  },
+  {
+    "id": "SHK",
+    "stateId": "TH",
+    "origin": "Saale-holzland-kreis",
+    "name": "Saale-Holzland-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "SHL",
+    "stateId": "TH",
+    "origin": "Suhl",
+    "name": "Stadt Suhl",
+    "name_extra": ""
+  },
+  {
+    "id": "SI",
+    "stateId": "NW",
+    "origin": "Siegen",
+    "name": "Kreis Siegen-Wittgenstein",
+    "name_extra": ""
+  },
+  {
+    "id": "SIG",
+    "stateId": "BW",
+    "origin": "Sigmaringen",
+    "name": "Landkreis Sigmaringen",
+    "name_extra": ""
+  },
+  {
+    "id": "SIM",
+    "stateId": "RP",
+    "origin": "Simmern",
+    "name": "Rhein-Hunsrück-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "SK",
+    "stateId": "ST",
+    "origin": "Saalekreis",
+    "name": "Saalekreis",
+    "name_extra": ""
+  },
+  {
+    "id": "SL",
+    "stateId": "SH",
+    "origin": "Schleswig",
+    "name": "Kreis Schleswig-Flensburg",
+    "name_extra": ""
+  },
+  {
+    "id": "SLE",
+    "stateId": "NW",
+    "origin": "Schleiden",
+    "name": "Kreis Düren",
+    "name_extra": ""
+  },
+  {
+    "id": "SLE",
+    "stateId": "NW",
+    "origin": "Schleiden",
+    "name": "Kreis Euskirchen",
+    "name_extra": ""
+  },
+  {
+    "id": "SLF",
+    "stateId": "TH",
+    "origin": "Saalfeld",
+    "name": "Landkreis Saalfeld-Rudolstadt",
+    "name_extra": ""
+  },
+  {
+    "id": "SLK",
+    "stateId": "ST",
+    "origin": "Salzlandkreis",
+    "name": "Salzlandkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "SLN",
+    "stateId": "TH",
+    "origin": "Schmölln",
+    "name": "Landkreis Altenburger Land",
+    "name_extra": ""
+  },
+  {
+    "id": "SLS",
+    "stateId": "SL",
+    "origin": "Saarlouis",
+    "name": "Landkreis Saarlouis",
+    "name_extra": ""
+  },
+  {
+    "id": "SLÜ",
+    "stateId": "HE",
+    "origin": "Schlüchtern",
+    "name": "Main-Kinzig-Kreis",
+    "name_extra": "ohne die Stadt Hanau"
+  },
+  {
+    "id": "SLZ",
+    "stateId": "TH",
+    "origin": "Salzungen",
+    "name": "Wartburgkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "SM",
+    "stateId": "TH",
+    "origin": "Schmalkalden",
+    "name": "Landkreis Schmalkalden-Meiningen",
+    "name_extra": ""
+  },
+  {
+    "id": "SMÜ",
+    "stateId": "BY",
+    "origin": "Schwabmünchen",
+    "name": "Landkreis Augsburg",
+    "name_extra": ""
+  },
+  {
+    "id": "SN",
+    "stateId": "MV",
+    "origin": "Schwerin",
+    "name": "Stadt Schwerin",
+    "name_extra": ""
+  },
+  {
+    "id": "SO",
+    "stateId": "NW",
+    "origin": "Soest",
+    "name": "Kreis Soest",
+    "name_extra": ""
+  },
+  {
+    "id": "SOB",
+    "stateId": "BY",
+    "origin": "Schrobenhausen",
+    "name": "Landkreis Neuburg-Schrobenhausen",
+    "name_extra": ""
+  },
+  {
+    "id": "SOG",
+    "stateId": "BY",
+    "origin": "Schongau",
+    "name": "Landkreis Weilheim-Schongau",
+    "name_extra": ""
+  },
+  {
+    "id": "SOK",
+    "stateId": "TH",
+    "origin": "Saale-orla-kreis",
+    "name": "Saale-Orla-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "SÖM",
+    "stateId": "TH",
+    "origin": "Sömmerda",
+    "name": "Landkreis Sömmerda",
+    "name_extra": ""
+  },
+  {
+    "id": "SON",
+    "stateId": "TH",
+    "origin": "Sonneberg",
+    "name": "Landkreis Sonneberg",
+    "name_extra": ""
+  },
+  {
+    "id": "SP",
+    "stateId": "RP",
+    "origin": "Speyer",
+    "name": "Stadt Speyer",
+    "name_extra": ""
+  },
+  {
+    "id": "SPB",
+    "stateId": "BB",
+    "origin": "Spremberg",
+    "name": "Landkreis Spree-Neiße",
+    "name_extra": ""
+  },
+  {
+    "id": "SPN",
+    "stateId": "BB",
+    "origin": "Spree, neiße",
+    "name": "Landkreis Spree-Neiße",
+    "name_extra": ""
+  },
+  {
+    "id": "SR",
+    "stateId": "BY",
+    "origin": "Straubing",
+    "name": "Landkreis Straubing-Bogen",
+    "name_extra": ""
+  },
+  {
+    "id": "SR",
+    "stateId": "BY",
+    "origin": "Straubing",
+    "name": "Stadt StRaubing",
+    "name_extra": ""
+  },
+  {
+    "id": "SRB",
+    "stateId": "BB",
+    "origin": "Strausberg",
+    "name": "Landkreis Märkisch-Oderland",
+    "name_extra": ""
+  },
+  {
+    "id": "SRO",
+    "stateId": "TH",
+    "origin": "Stadtroda",
+    "name": "Saale-Holzland-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "ST",
+    "stateId": "NW",
+    "origin": "Steinfurt",
+    "name": "Kreis Steinfurt",
+    "name_extra": ""
+  },
+  {
+    "id": "STA",
+    "stateId": "BY",
+    "origin": "Starnberg",
+    "name": "Landkreis Starnberg",
+    "name_extra": ""
+  },
+  {
+    "id": "STB",
+    "stateId": "MV",
+    "origin": "Sternberg",
+    "name": "Landkreis Ludwigslust-Parchim",
+    "name_extra": ""
+  },
+  {
+    "id": "STD",
+    "stateId": "NI",
+    "origin": "Stade",
+    "name": "Landkreis Stade",
+    "name_extra": ""
+  },
+  {
+    "id": "STE",
+    "stateId": "BY",
+    "origin": "Staffelstein",
+    "name": "Landkreis Lichtenfels",
+    "name_extra": ""
+  },
+  {
+    "id": "STL",
+    "stateId": "SN",
+    "origin": "Stollberg",
+    "name": "Erzgebirgskreis",
+    "name_extra": ""
+  },
+  {
+    "id": "SU",
+    "stateId": "NW",
+    "origin": "Siegburg",
+    "name": "Rhein-Sieg-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "SUL",
+    "stateId": "BY",
+    "origin": "Sulzbach",
+    "name": "Landkreis Amberg-Sulzbach",
+    "name_extra": ""
+  },
+  {
+    "id": "SÜW",
+    "stateId": "RP",
+    "origin": "Südliche weinstraße",
+    "name": "Landkreis Südliche Weinstraße",
+    "name_extra": ""
+  },
+  {
+    "id": "SW",
+    "stateId": "BY",
+    "origin": "Schweinfurt",
+    "name": "Stadt Schweinfurt",
+    "name_extra": ""
+  },
+  {
+    "id": "SW",
+    "stateId": "BY",
+    "origin": "Schweinfurt",
+    "name": "Landkreis Schweinfurt",
+    "name_extra": ""
+  },
+  {
+    "id": "SWA",
+    "stateId": "HE",
+    "origin": "Schwalbach",
+    "name": "Rheingau-Taunus-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "SY",
+    "stateId": "NI",
+    "origin": "Syke",
+    "name": "Landkreis Diepholz",
+    "name_extra": ""
+  },
+  {
+    "id": "SZ",
+    "stateId": "NI",
+    "origin": "Salzgitter",
+    "name": "Stadt Salzgitter",
+    "name_extra": ""
+  },
+  {
+    "id": "SZB",
+    "stateId": "SN",
+    "origin": "Schwarzenberg",
+    "name": "Erzgebirgskreis",
+    "name_extra": ""
+  },
+  {
+    "id": "TBB",
+    "stateId": "BW",
+    "origin": "Tauberbischofsheim",
+    "name": "Main-Tauber-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "TDO",
+    "stateId": "SN",
+    "origin": "Torgau, delitzsch, oschatz",
+    "name": "Landkreis Nordsachsen",
+    "name_extra": ""
+  },
+  {
+    "id": "TE",
+    "stateId": "NW",
+    "origin": "Tecklenburg",
+    "name": "Kreis Steinfurt",
+    "name_extra": ""
+  },
+  {
+    "id": "TET",
+    "stateId": "MV",
+    "origin": "Teterow",
+    "name": "Landkreis Rostock",
+    "name_extra": ""
+  },
+  {
+    "id": "TF",
+    "stateId": "BB",
+    "origin": "Teltow, fläming",
+    "name": "Landkreis Teltow-Fläming",
+    "name_extra": ""
+  },
+  {
+    "id": "TG",
+    "stateId": "SN",
+    "origin": "Torgau",
+    "name": "Landkreis Nordsachsen",
+    "name_extra": ""
+  },
+  {
+    "id": "THL",
+    "stateId": "TH",
+    "origin": "Thüringer landtag",
+    "name": "Thüringen",
+    "name_extra": "Landesregierung und Landtag"
+  },
+  {
+    "id": "THW",
+    "stateId": "BD",
+    "origin": "Technisches hilfswerk",
+    "name": "Bundesanstalt Technisches Hilfswerk",
+    "name_extra": ""
+  },
+  {
+    "id": "TIR",
+    "stateId": "BY",
+    "origin": "Tirschenreuth",
+    "name": "Landkreis Tirschenreuth",
+    "name_extra": ""
+  },
+  {
+    "id": "TO",
+    "stateId": "SN",
+    "origin": "Torgau, oschatz",
+    "name": "Landkreis Nordsachsen",
+    "name_extra": ""
+  },
+  {
+    "id": "TÖL",
+    "stateId": "BY",
+    "origin": "Bad tölz",
+    "name": "Landkreis Bad Tölz-Wolfratshausen",
+    "name_extra": ""
+  },
+  {
+    "id": "TP",
+    "stateId": "BB",
+    "origin": "Templin",
+    "name": "Landkreis Uckermark",
+    "name_extra": ""
+  },
+  {
+    "id": "TR",
+    "stateId": "RP",
+    "origin": "Trier",
+    "name": "Landkreis Trier-Saarburg",
+    "name_extra": ""
+  },
+  {
+    "id": "TR",
+    "stateId": "RP",
+    "origin": "Trier",
+    "name": "Stadt Trier",
+    "name_extra": ""
+  },
+  {
+    "id": "TS",
+    "stateId": "BY",
+    "origin": "Traunstein",
+    "name": "Landkreis Traunstein",
+    "name_extra": ""
+  },
+  {
+    "id": "TÜ",
+    "stateId": "BW",
+    "origin": "Tübingen",
+    "name": "Landkreis Tübingen",
+    "name_extra": ""
+  },
+  {
+    "id": "TUT",
+    "stateId": "BW",
+    "origin": "Tuttlingen",
+    "name": "Landkreis Tuttlingen",
+    "name_extra": ""
+  },
+  {
+    "id": "UE",
+    "stateId": "NI",
+    "origin": "Uelzen",
+    "name": "Landkreis Uelzen",
+    "name_extra": ""
+  },
+  {
+    "id": "UEM",
+    "stateId": "MV",
+    "origin": "Ueckermünde",
+    "name": "Landkreis Vorpommern-Greifswald",
+    "name_extra": "ohne die Stadt Greifswald"
+  },
+  {
+    "id": "UFF",
+    "stateId": "BY",
+    "origin": "Uffenheim",
+    "name": "Landkreis Neustadt an der Aisch-Bad Windsheim",
+    "name_extra": ""
+  },
+  {
+    "id": "UH",
+    "stateId": "TH",
+    "origin": "Unstrut, hainich",
+    "name": "Unstrut-Hainich-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "UL",
+    "stateId": "BW",
+    "origin": "Ulm",
+    "name": "Stadt Ulm",
+    "name_extra": ""
+  },
+  {
+    "id": "UL",
+    "stateId": "BW",
+    "origin": "Ulm",
+    "name": "Alb-Donau-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "UM",
+    "stateId": "BB",
+    "origin": "Uckermark",
+    "name": "Landkreis Uckermark",
+    "name_extra": ""
+  },
+  {
+    "id": "UN",
+    "stateId": "NW",
+    "origin": "Unna",
+    "name": "Kreis Unna",
+    "name_extra": ""
+  },
+  {
+    "id": "USI",
+    "stateId": "HE",
+    "origin": "Usingen",
+    "name": "Hochtaunuskreis",
+    "name_extra": ""
+  },
+  {
+    "id": "V",
+    "stateId": "SN",
+    "origin": "Vogtland",
+    "name": "Vogtlandkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "VAI",
+    "stateId": "BW",
+    "origin": "Vaihingen",
+    "name": "Landkreis Ludwigsburg",
+    "name_extra": ""
+  },
+  {
+    "id": "VB",
+    "stateId": "HE",
+    "origin": "Vogelsberg",
+    "name": "Vogelsbergkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "VEC",
+    "stateId": "NI",
+    "origin": "Vechta",
+    "name": "Landkreis Vechta",
+    "name_extra": ""
+  },
+  {
+    "id": "VER",
+    "stateId": "NI",
+    "origin": "Verden",
+    "name": "Landkreis Verden",
+    "name_extra": ""
+  },
+  {
+    "id": "VG",
+    "stateId": "MV",
+    "origin": "Vorpommern, greifswald",
+    "name": "Landkreis Vorpommern-Greifswald",
+    "name_extra": "ohne die Stadt Greifswald"
+  },
+  {
+    "id": "VIB",
+    "stateId": "BY",
+    "origin": "Vilsbiburg",
+    "name": "Landkreis Landshut",
+    "name_extra": ""
+  },
+  {
+    "id": "VIB",
+    "stateId": "BY",
+    "origin": "Vilsbiburg",
+    "name": "Landkreis Mühldorf a.Inn",
+    "name_extra": ""
+  },
+  {
+    "id": "VIB",
+    "stateId": "BY",
+    "origin": "Vilsbiburg",
+    "name": "Landkreis Rottal-Inn",
+    "name_extra": ""
+  },
+  {
+    "id": "VIE",
+    "stateId": "NW",
+    "origin": "Viersen",
+    "name": "Kreis Viersen",
+    "name_extra": ""
+  },
+  {
+    "id": "VIT",
+    "stateId": "BY",
+    "origin": "Viechtach",
+    "name": "Landkreis Regen",
+    "name_extra": ""
+  },
+  {
+    "id": "VK",
+    "stateId": "SL",
+    "origin": "Völklingen",
+    "name": "Stadt Völklingen",
+    "name_extra": "Mittelstadt im Regionalverband Saarbrücken"
+  },
+  {
+    "id": "VOH",
+    "stateId": "BY",
+    "origin": "Vohenstrauß",
+    "name": "Landkreis Neustadt an der Waldnaab",
+    "name_extra": ""
+  },
+  {
+    "id": "VR",
+    "stateId": "MV",
+    "origin": "Vorpommern, rügen",
+    "name": "Landkreis Vorpommern-Rügen",
+    "name_extra": "ohne die Stadt Stralsund"
+  },
+  {
+    "id": "VS",
+    "stateId": "BW",
+    "origin": "Villingen-schwenningen",
+    "name": "Schwarzwald-Baar-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "W",
+    "stateId": "NW",
+    "origin": "Wuppertal",
+    "name": "Stadt Wuppertal",
+    "name_extra": ""
+  },
+  {
+    "id": "WA",
+    "stateId": "HE",
+    "origin": "Waldeck",
+    "name": "Landkreis Waldeck-Frankenberg",
+    "name_extra": ""
+  },
+  {
+    "id": "WAF",
+    "stateId": "NW",
+    "origin": "Warendorf",
+    "name": "Kreis Warendorf",
+    "name_extra": ""
+  },
+  {
+    "id": "WAK",
+    "stateId": "TH",
+    "origin": "Wartburgkreis",
+    "name": "Wartburgkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "WAN",
+    "stateId": "NW",
+    "origin": "Wanne",
+    "name": "Stadt Herne",
+    "name_extra": ""
+  },
+  {
+    "id": "WAT",
+    "stateId": "NW",
+    "origin": "Wattenscheid",
+    "name": "Stadt Bochum",
+    "name_extra": ""
+  },
+  {
+    "id": "WB",
+    "stateId": "ST",
+    "origin": "Wittenberg",
+    "name": "Landkreis Wittenberg",
+    "name_extra": ""
+  },
+  {
+    "id": "WBS",
+    "stateId": "TH",
+    "origin": "Worbis",
+    "name": "Landkreis Eichsfeld",
+    "name_extra": ""
+  },
+  {
+    "id": "WDA",
+    "stateId": "SN",
+    "origin": "Werdau",
+    "name": "Landkreis Zwickau",
+    "name_extra": ""
+  },
+  {
+    "id": "WE",
+    "stateId": "TH",
+    "origin": "Weimar",
+    "name": "Stadt Weimar",
+    "name_extra": ""
+  },
+  {
+    "id": "WEL",
+    "stateId": "HE",
+    "origin": "Weilburg",
+    "name": "Landkreis Limburg-Weilburg",
+    "name_extra": ""
+  },
+  {
+    "id": "WEN",
+    "stateId": "BY",
+    "origin": "Weiden",
+    "name": "Stadt Weiden in der Oberpfalz",
+    "name_extra": ""
+  },
+  {
+    "id": "WER",
+    "stateId": "BY",
+    "origin": "Wertingen",
+    "name": "Landkreis Augsburg",
+    "name_extra": ""
+  },
+  {
+    "id": "WER",
+    "stateId": "BY",
+    "origin": "Wertingen",
+    "name": "Landkreis Dillingen an der Donau",
+    "name_extra": ""
+  },
+  {
+    "id": "WES",
+    "stateId": "NW",
+    "origin": "Wesel",
+    "name": "Kreis Wesel",
+    "name_extra": ""
+  },
+  {
+    "id": "WF",
+    "stateId": "NI",
+    "origin": "Wolfenbüttel",
+    "name": "Landkreis Wolfenbüttel",
+    "name_extra": ""
+  },
+  {
+    "id": "WHV",
+    "stateId": "NI",
+    "origin": "Wilhelmshaven",
+    "name": "Stadt Wilhelmshaven",
+    "name_extra": ""
+  },
+  {
+    "id": "WI",
+    "stateId": "HE",
+    "origin": "Wiesbaden",
+    "name": "Stadt Wiesbaden",
+    "name_extra": ""
+  },
+  {
+    "id": "WIL",
+    "stateId": "RP",
+    "origin": "Wittlich",
+    "name": "Landkreis Bernkastel-Wittlich",
+    "name_extra": ""
+  },
+  {
+    "id": "WIS",
+    "stateId": "MV",
+    "origin": "Wismar",
+    "name": "Landkreis Nordwestmecklenburg",
+    "name_extra": ""
+  },
+  {
+    "id": "WIT",
+    "stateId": "NW",
+    "origin": "Witten",
+    "name": "Ennepe-Ruhr-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "WIZ",
+    "stateId": "HE",
+    "origin": "Witzenhausen",
+    "name": "Werra-Meißner-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "WK",
+    "stateId": "BB",
+    "origin": "Wittstock",
+    "name": "Landkreis Ostprignitz-Ruppin",
+    "name_extra": ""
+  },
+  {
+    "id": "WL",
+    "stateId": "NI",
+    "origin": "Winsen (luhe)",
+    "name": "Landkreis Harburg",
+    "name_extra": ""
+  },
+  {
+    "id": "WLG",
+    "stateId": "MV",
+    "origin": "Wolgast",
+    "name": "Landkreis Vorpommern-Greifswald",
+    "name_extra": "ohne die Stadt Greifswald"
+  },
+  {
+    "id": "WM",
+    "stateId": "BY",
+    "origin": "Weilheim",
+    "name": "Landkreis Weilheim-Schongau",
+    "name_extra": ""
+  },
+  {
+    "id": "WMS",
+    "stateId": "ST",
+    "origin": "Wolmirstedt",
+    "name": "Landkreis Börde",
+    "name_extra": ""
+  },
+  {
+    "id": "WN",
+    "stateId": "BW",
+    "origin": "Waiblingen",
+    "name": "Rems-Murr-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "WND",
+    "stateId": "SL",
+    "origin": "Wendel",
+    "name": "Landkreis St. Wendel",
+    "name_extra": ""
+  },
+  {
+    "id": "WO",
+    "stateId": "RP",
+    "origin": "Worms",
+    "name": "Stadt Worms",
+    "name_extra": ""
+  },
+  {
+    "id": "WOB",
+    "stateId": "NI",
+    "origin": "Wolfsburg",
+    "name": "Stadt Wolfsburg",
+    "name_extra": ""
+  },
+  {
+    "id": "WOH",
+    "stateId": "HE",
+    "origin": "Wolfhagen",
+    "name": "Landkreis Kassel",
+    "name_extra": ""
+  },
+  {
+    "id": "WOL",
+    "stateId": "BW",
+    "origin": "Wolfach",
+    "name": "Landkreis Freudenstadt",
+    "name_extra": ""
+  },
+  {
+    "id": "WOL",
+    "stateId": "BW",
+    "origin": "Wolfach",
+    "name": "Ortenaukreis",
+    "name_extra": ""
+  },
+  {
+    "id": "WOR",
+    "stateId": "BY",
+    "origin": "Wolfratshausen",
+    "name": "Landkreis Bad Tölz-Wolfratshausen",
+    "name_extra": ""
+  },
+  {
+    "id": "WOR",
+    "stateId": "BY",
+    "origin": "Wolfratshausen",
+    "name": "Landkreis München",
+    "name_extra": ""
+  },
+  {
+    "id": "WOR",
+    "stateId": "BY",
+    "origin": "Wolfratshausen",
+    "name": "Landkreis Starnberg",
+    "name_extra": ""
+  },
+  {
+    "id": "WOS",
+    "stateId": "BY",
+    "origin": "Wolfstein",
+    "name": "Landkreis Freyung-Grafenau",
+    "name_extra": ""
+  },
+  {
+    "id": "WR",
+    "stateId": "ST",
+    "origin": "Wernigerode",
+    "name": "Landkreis Harz",
+    "name_extra": ""
+  },
+  {
+    "id": "WRN",
+    "stateId": "MV",
+    "origin": "Waren",
+    "name": "Landkreis Mecklenburgische Seenplatte",
+    "name_extra": "ohne die Stadt Neubrandenburg"
+  },
+  {
+    "id": "WS",
+    "stateId": "BY",
+    "origin": "Wasserburg",
+    "name": "Landkreis Mühldorf a.Inn",
+    "name_extra": ""
+  },
+  {
+    "id": "WS",
+    "stateId": "BY",
+    "origin": "Wasserburg",
+    "name": "Landkreis Rosenheim",
+    "name_extra": ""
+  },
+  {
+    "id": "WSF",
+    "stateId": "ST",
+    "origin": "Weissenfels",
+    "name": "Burgenlandkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "WST",
+    "stateId": "NI",
+    "origin": "Westerstede",
+    "name": "Landkreis Ammerland",
+    "name_extra": ""
+  },
+  {
+    "id": "WSW",
+    "stateId": "SN",
+    "origin": "Weisswasser",
+    "name": "Landkreis Görlitz",
+    "name_extra": ""
+  },
+  {
+    "id": "WT",
+    "stateId": "BW",
+    "origin": "Waldshut",
+    "name": "Landkreis Waldshut",
+    "name_extra": ""
+  },
+  {
+    "id": "WTL",
+    "stateId": "NI",
+    "origin": "Wittlage",
+    "name": "Landkreis Osnabrück",
+    "name_extra": ""
+  },
+  {
+    "id": "WTM",
+    "stateId": "NI",
+    "origin": "Wittmund",
+    "name": "Landkreis Wittmund",
+    "name_extra": ""
+  },
+  {
+    "id": "WÜ",
+    "stateId": "BY",
+    "origin": "Würzburg",
+    "name": "Stadt Würzburg",
+    "name_extra": ""
+  },
+  {
+    "id": "WÜ",
+    "stateId": "BY",
+    "origin": "Würzburg",
+    "name": "Landkreis Würzburg",
+    "name_extra": ""
+  },
+  {
+    "id": "WUG",
+    "stateId": "BY",
+    "origin": "Weißenburg",
+    "name": "Landkreis Weißenburg-Gunzenhausen",
+    "name_extra": ""
+  },
+  {
+    "id": "WÜM",
+    "stateId": "BY",
+    "origin": "Waldmünchen",
+    "name": "Landkreis Cham",
+    "name_extra": ""
+  },
+  {
+    "id": "WUN",
+    "stateId": "BY",
+    "origin": "Wunsiedel",
+    "name": "Landkreis Wunsiedel im Fichtelgebirge",
+    "name_extra": ""
+  },
+  {
+    "id": "WUR",
+    "stateId": "SN",
+    "origin": "Wurzen",
+    "name": "Landkreis Leipzig",
+    "name_extra": ""
+  },
+  {
+    "id": "WW",
+    "stateId": "RP",
+    "origin": "Westerwald",
+    "name": "Westerwaldkreis",
+    "name_extra": ""
+  },
+  {
+    "id": "WZ",
+    "stateId": "HE",
+    "origin": "Wetzlar",
+    "name": "Stadt Wetzlar",
+    "name_extra": "Sonderstatusstadt im Lahn-Dill-Kreis"
+  },
+  {
+    "id": "WZL",
+    "stateId": "ST",
+    "origin": "Wanzleben",
+    "name": "Landkreis Börde",
+    "name_extra": ""
+  },
+  {
+    "id": "X",
+    "stateId": "BD",
+    "origin": "Willkürlich gewählt",
+    "name": "Internationale Hauptquartiere (NATO)",
+    "name_extra": ""
+  },
+  {
+    "id": "Y",
+    "stateId": "BD",
+    "origin": "Willkürlich gewählt",
+    "name": "Bundeswehr",
+    "name_extra": ""
+  },
+  {
+    "id": "Z",
+    "stateId": "SN",
+    "origin": "Zwickau",
+    "name": "Landkreis Zwickau",
+    "name_extra": ""
+  },
+  {
+    "id": "ZE",
+    "stateId": "ST",
+    "origin": "Zerbst",
+    "name": "Landkreis Anhalt-Bitterfeld",
+    "name_extra": ""
+  },
+  {
+    "id": "ZEL",
+    "stateId": "RP",
+    "origin": "Zell",
+    "name": "Landkreis Cochem-Zell",
+    "name_extra": ""
+  },
+  {
+    "id": "ZI",
+    "stateId": "SN",
+    "origin": "Zittau",
+    "name": "Landkreis Görlitz",
+    "name_extra": ""
+  },
+  {
+    "id": "ZIG",
+    "stateId": "HE",
+    "origin": "Ziegenhain",
+    "name": "Schwalm-Eder-Kreis",
+    "name_extra": ""
+  },
+  {
+    "id": "ZP",
+    "stateId": "SN",
+    "origin": "Zschopau",
+    "name": "Erzgebirgskreis",
+    "name_extra": ""
+  },
+  {
+    "id": "ZR",
+    "stateId": "TH",
+    "origin": "Zeulenroda",
+    "name": "Landkreis Greiz",
+    "name_extra": ""
+  },
+  {
+    "id": "ZW",
+    "stateId": "RP",
+    "origin": "Zweibrücken",
+    "name": "Stadt Zweibrücken",
+    "name_extra": ""
+  },
+  {
+    "id": "ZW",
+    "stateId": "RP",
+    "origin": "Zweibrücken",
+    "name": "Landkreis Südwestpfalz",
+    "name_extra": ""
+  },
+  {
+    "id": "ZZ",
+    "stateId": "ST",
+    "origin": "Zeitz",
+    "name": "Burgenlandkreis",
+    "name_extra": ""
   }
-}
+]
