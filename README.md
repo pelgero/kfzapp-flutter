@@ -4,13 +4,18 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
+This project is a Flutter application. For help getting started with Flutter, view Flutters [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+When you have followed Flutter setup documentation, and have a device connected, you
+should be able to start application on your device or emulator by
+
+```
+$ flutter run
+```
+
+## Tested devices/emulators
+
+- Real device: Huaweii P10 lite (WAS LX1A • android-arm64 • Android 8.0.0 (API 26))
+- Emulator: (Nexus 5X • API 29)
+- Emulator: (Nexus 5X • API 28)
