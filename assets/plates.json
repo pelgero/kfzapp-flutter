@@ -44,7 +44,7 @@
   {
     "id": "ABI",
     "stateId": "ST",
-    "origin": "Anhalt, bitterfeld",
+    "origin": "Anhalt, Bitterfeld",
     "name": "Landkreis Anhalt-Bitterfeld",
     "name_extra": ""
   },
@@ -72,14 +72,14 @@
   {
     "id": "AIB",
     "stateId": "BY",
-    "origin": "Aibling",
+    "origin": "Bad Aibling",
     "name": "Landkreis München",
     "name_extra": ""
   },
   {
     "id": "AIB",
     "stateId": "BY",
-    "origin": "Aibling",
+    "origin": "Bad Aibling",
     "name": "Landkreis Rosenheim",
     "name_extra": ""
   },
@@ -191,7 +191,7 @@
   {
     "id": "AS",
     "stateId": "BY",
-    "origin": "Amberg, sulzbach",
+    "origin": "Amberg, Sulzbach",
     "name": "Landkreis Amberg-Sulzbach",
     "name_extra": ""
   },
@@ -205,7 +205,7 @@
   {
     "id": "ASZ",
     "stateId": "SN",
-    "origin": "Aue, schwarzenberg",
+    "origin": "Aue, Schwarzenberg",
     "name": "Erzgebirgskreis",
     "name_extra": ""
   },
@@ -247,7 +247,7 @@
   {
     "id": "AZE",
     "stateId": "ST",
-    "origin": "Anhalt-zerbst",
+    "origin": "Anhalt-Zerbst",
     "name": "Landkreis Anhalt-Bitterfeld",
     "name_extra": ""
   },
@@ -289,7 +289,7 @@
   {
     "id": "BAD",
     "stateId": "BW",
-    "origin": "Baden-baden",
+    "origin": "Baden-Baden",
     "name": "Stadt Baden-Baden",
     "name_extra": ""
   },
@@ -317,7 +317,7 @@
   {
     "id": "BBL",
     "stateId": "BB",
-    "origin": "Brandenburgische landesregierung",
+    "origin": "Brandenburgische Landesregierung",
     "name": "Brandenburg",
     "name_extra": "Landesregierung, Landtag und Polizei"
   },
@@ -394,7 +394,7 @@
   {
     "id": "BED",
     "stateId": "SN",
-    "origin": "Brand-erbisdorf",
+    "origin": "Brand-Erbisdorf",
     "name": "Landkreis Mittelsachsen",
     "name_extra": ""
   },
@@ -422,7 +422,7 @@
   {
     "id": "BGL",
     "stateId": "BY",
-    "origin": "Berchtesgadener land",
+    "origin": "Berchtesgadener Land",
     "name": "Landkreis Berchtesgadener Land",
     "name_extra": ""
   },
@@ -744,21 +744,21 @@
   {
     "id": "BW",
     "stateId": "BD",
-    "origin": "Bundes-wasserstraßen- und schifffahrtsverwaltung",
+    "origin": "Bundes-Wasserstraßen- und Schifffahrtsverwaltung",
     "name": "Wasserstraßen- und Schifffahrtsverwaltung des Bundes",
     "name_extra": ""
   },
   {
     "id": "BWL",
     "stateId": "BW",
-    "origin": "Baden-württembergischer landtag",
+    "origin": "Baden-Württembergischer Landtag",
     "name": "Baden-Württemberg",
     "name_extra": "Landesregierung, Landtag und Polizei"
   },
   {
     "id": "BYL",
     "stateId": "BY",
-    "origin": "Bayerischer landtag",
+    "origin": "Bayerischer Landtag",
     "name": "Bayern",
     "name_extra": "Landesregierung und Landtag"
   },
@@ -821,7 +821,7 @@
   {
     "id": "CLZ",
     "stateId": "NI",
-    "origin": "Clausthal-zellerfeld",
+    "origin": "Clausthal-Zellerfeld",
     "name": "Landkreis Goslar",
     "name_extra": ""
   },
@@ -1066,7 +1066,7 @@
   {
     "id": "DÜW",
     "stateId": "RP",
-    "origin": "Dürkheim an der weinstraße",
+    "origin": "Dürkheim an der Weinstraße",
     "name": "Landkreis Bad Dürkheim",
     "name_extra": ""
   },
@@ -1157,7 +1157,7 @@
   {
     "id": "EE",
     "stateId": "BB",
-    "origin": "Elbe, elster",
+    "origin": "Elbe, Elster",
     "name": "Landkreis Elbe-Elster",
     "name_extra": ""
   },
@@ -1269,7 +1269,7 @@
   {
     "id": "ERH",
     "stateId": "BY",
-    "origin": "Erlangen, höchstadt",
+    "origin": "Erlangen, Höchstadt",
     "name": "Landkreis Erlangen-Höchstadt",
     "name_extra": ""
   },
@@ -1472,7 +1472,7 @@
   {
     "id": "FRG",
     "stateId": "BY",
-    "origin": "Freyung, grafenau",
+    "origin": "Freyung, Grafenau",
     "name": "Landkreis Freyung-Grafenau",
     "name_extra": ""
   },
@@ -1570,7 +1570,7 @@
   {
     "id": "GAP",
     "stateId": "BY",
-    "origin": "Garmisch-partenkirchen",
+    "origin": "Garmisch-Partenkirchen",
     "name": "Landkreis Garmisch-Partenkirchen",
     "name_extra": ""
   },
@@ -1640,7 +1640,7 @@
   {
     "id": "GG",
     "stateId": "HE",
-    "origin": "Groß-gerau",
+    "origin": "Groß-Gerau",
     "name": "Kreis Groß-Gerau",
     "name_extra": ""
   },
@@ -1913,21 +1913,21 @@
   {
     "id": "HB",
     "stateId": "HB",
-    "origin": "Hansestadt bremen",
+    "origin": "Hansestadt Bremen",
     "name": "Hansestadt Bremen",
     "name_extra": ""
   },
   {
     "id": "HB",
     "stateId": "HB",
-    "origin": "Hansestadt bremen",
+    "origin": "Hansestadt Bremen",
     "name": "Bremen",
     "name_extra": "Senat und Bürgerschaft"
   },
   {
     "id": "HB",
     "stateId": "HB",
-    "origin": "Hansestadt bremen",
+    "origin": "Hansestadt Bremen",
     "name": "Stadt Bremerhaven",
     "name_extra": ""
   },
@@ -2025,7 +2025,7 @@
   {
     "id": "HEL",
     "stateId": "HE",
-    "origin": "Hessischer landtag",
+    "origin": "Hessischer Landtag",
     "name": "Hessen",
     "name_extra": "Landesregierung und Landtag"
   },
@@ -2067,21 +2067,21 @@
   {
     "id": "HGW",
     "stateId": "MV",
-    "origin": "Hansestadt greifswald",
+    "origin": "Hansestadt Greifswald",
     "name": "Stadt Greifswald",
     "name_extra": ""
   },
   {
     "id": "HH",
     "stateId": "HH",
-    "origin": "Hansestadt hamburg",
+    "origin": "Hansestadt Hamburg",
     "name": "Hansestadt Hamburg",
     "name_extra": ""
   },
   {
     "id": "HH",
     "stateId": "HH",
-    "origin": "Hansestadt hamburg",
+    "origin": "Hansestadt Hamburg",
     "name": "Hamburg",
     "name_extra": "Senat und Bürgerschaft"
   },
@@ -2123,7 +2123,7 @@
   {
     "id": "HL",
     "stateId": "SH",
-    "origin": "Hansestadt lübeck",
+    "origin": "Hansestadt Lübeck",
     "name": "Stadt Lübeck",
     "name_extra": ""
   },
@@ -2137,7 +2137,7 @@
   {
     "id": "HMÜ",
     "stateId": "NI",
-    "origin": "Hann. münden",
+    "origin": "Hann. Münden",
     "name": "Landkreis Göttingen",
     "name_extra": "ohne die Stadt Göttingen"
   },
@@ -2235,7 +2235,7 @@
   {
     "id": "HRO",
     "stateId": "MV",
-    "origin": "Hansestadt rostock",
+    "origin": "Hansestadt Rostock",
     "name": "Stadt Rostock",
     "name_extra": ""
   },
@@ -2256,7 +2256,7 @@
   {
     "id": "HST",
     "stateId": "MV",
-    "origin": "Hansestadt stralsund",
+    "origin": "Hansestadt Stralsund",
     "name": "Stadt Stralsund",
     "name_extra": "große kreisangehörige Stadt im Landkreis Vorpommern-Rügen"
   },
@@ -2291,7 +2291,7 @@
   {
     "id": "HWI",
     "stateId": "MV",
-    "origin": "Hansestadt wismar",
+    "origin": "Hansestadt Wismar",
     "name": "Stadt Wismar",
     "name_extra": "große kreisangehörige Stadt im Landkreis Nordwestmecklenburg"
   },
@@ -2326,7 +2326,7 @@
   {
     "id": "IK",
     "stateId": "TH",
-    "origin": "Ilm-kreis",
+    "origin": "Ilm-Kreis",
     "name": "Ilm-Kreis",
     "name_extra": ""
   },
@@ -2368,7 +2368,7 @@
   {
     "id": "JL",
     "stateId": "ST",
-    "origin": "Jerichower land",
+    "origin": "Jerichower Land",
     "name": "Landkreis Jerichower Land",
     "name_extra": ""
   },
@@ -2487,7 +2487,7 @@
   {
     "id": "KK",
     "stateId": "NW",
-    "origin": "Kempen, krefeld",
+    "origin": "Kempen, Krefeld",
     "name": "Kreis Viersen",
     "name_extra": ""
   },
@@ -2620,7 +2620,7 @@
   {
     "id": "KW",
     "stateId": "BB",
-    "origin": "Königs wusterhausen",
+    "origin": "Königs Wusterhausen",
     "name": "Landkreis Dahme-Spreewald",
     "name_extra": ""
   },
@@ -2718,14 +2718,14 @@
   {
     "id": "LDK",
     "stateId": "HE",
-    "origin": "Lahn-dill-kreis",
+    "origin": "Lahn-Dill-Kreis",
     "name": "Lahn-Dill-Kreis",
     "name_extra": "ohne die Stadt Wetzlar"
   },
   {
     "id": "LDS",
     "stateId": "BB",
-    "origin": "Landkreis dahme-spreewald",
+    "origin": "Landkreis Dahme-Spreewald",
     "name": "Landkreis Dahme-Spreewald",
     "name_extra": ""
   },
@@ -2823,7 +2823,7 @@
   {
     "id": "LL",
     "stateId": "BY",
-    "origin": "Landsberg am lech",
+    "origin": "Landsberg am Lech",
     "name": "Landkreis Landsberg am Lech",
     "name_extra": ""
   },
@@ -2858,7 +2858,7 @@
   {
     "id": "LOS",
     "stateId": "BB",
-    "origin": "Landkreis oder-spree",
+    "origin": "Landkreis Oder-Spree",
     "name": "Landkreis Oder-Spree",
     "name_extra": ""
   },
@@ -2879,21 +2879,21 @@
   {
     "id": "LRO",
     "stateId": "MV",
-    "origin": "Landkreis rostock",
+    "origin": "Landkreis Rostock",
     "name": "Landkreis Rostock",
     "name_extra": ""
   },
   {
     "id": "LSA",
     "stateId": "ST",
-    "origin": "Land sachsen-anhalt",
+    "origin": "Land Sachsen-Anhalt",
     "name": "Sachsen-Anhalt",
     "name_extra": "Landesregierung, Landtag und Polizei"
   },
   {
     "id": "LSN",
     "stateId": "SN",
-    "origin": "Land sachsen",
+    "origin": "Land Sachsen",
     "name": "Sachsen",
     "name_extra": "Landesregierung und Landtag"
   },
@@ -2921,7 +2921,7 @@
   {
     "id": "LUP",
     "stateId": "MV",
-    "origin": "Ludwigslust, parchim",
+    "origin": "Ludwigslust, Parchim",
     "name": "Landkreis Ludwigslust-Parchim",
     "name_extra": ""
   },
@@ -3047,7 +3047,7 @@
   {
     "id": "MEK",
     "stateId": "SN",
-    "origin": "Mittlerer erzgebirgskreis",
+    "origin": "Mittlerer Erzgebirgskreis",
     "name": "Erzgebirgskreis",
     "name_extra": ""
   },
@@ -3124,21 +3124,21 @@
   {
     "id": "MK",
     "stateId": "NW",
-    "origin": "Märkischer kreis",
+    "origin": "Märkischer Kreis",
     "name": "Märkischer Kreis",
     "name_extra": ""
   },
   {
     "id": "MKK",
     "stateId": "HE",
-    "origin": "Main-kinzig-kreis",
+    "origin": "Main-Kinzig-Kreis",
     "name": "Main-Kinzig-Kreis",
     "name_extra": "ohne die Stadt Hanau"
   },
   {
     "id": "ML",
     "stateId": "ST",
-    "origin": "Mansfelder land",
+    "origin": "Mansfelder Land",
     "name": "Landkreis Mansfeld-Südharz",
     "name_extra": ""
   },
@@ -3173,7 +3173,7 @@
   {
     "id": "MOL",
     "stateId": "BB",
-    "origin": "Märkisch-oderland",
+    "origin": "Märkisch-Oderland",
     "name": "Landkreis Märkisch-Oderland",
     "name_extra": ""
   },
@@ -3201,7 +3201,7 @@
   {
     "id": "MQ",
     "stateId": "ST",
-    "origin": "Merseburg, querfurt",
+    "origin": "Merseburg, Querfurt",
     "name": "Saalekreis",
     "name_extra": ""
   },
@@ -3222,35 +3222,35 @@
   {
     "id": "MSE",
     "stateId": "MV",
-    "origin": "Mecklenburgische seenplatte",
+    "origin": "Mecklenburgische Seenplatte",
     "name": "Landkreis Mecklenburgische Seenplatte",
     "name_extra": "ohne die Stadt Neubrandenburg"
   },
   {
     "id": "MSH",
     "stateId": "ST",
-    "origin": "Mansfeld, südharz",
+    "origin": "Mansfeld, Südharz",
     "name": "Landkreis Mansfeld-Südharz",
     "name_extra": ""
   },
   {
     "id": "MSP",
     "stateId": "BY",
-    "origin": "Main, spessart",
+    "origin": "Main, Spessart",
     "name": "Landkreis Main-Spessart",
     "name_extra": ""
   },
   {
     "id": "MST",
     "stateId": "MV",
-    "origin": "Mecklenburg-strelitz",
+    "origin": "Mecklenburg-Strelitz",
     "name": "Landkreis Mecklenburgische Seenplatte",
     "name_extra": "ohne die Stadt Neubrandenburg"
   },
   {
     "id": "MTK",
     "stateId": "HE",
-    "origin": "Main-taunus-kreis",
+    "origin": "Main-Taunus-Kreis",
     "name": "Main-Taunus-Kreis",
     "name_extra": ""
   },
@@ -3292,7 +3292,7 @@
   {
     "id": "MVL",
     "stateId": "MV",
-    "origin": "Mecklenburg-vorpommerscher landtag",
+    "origin": "Mecklenburg-Vorpommerscher Landtag",
     "name": "Mecklenburg-Vorpommern",
     "name_extra": "Landesregierung, Landtag und Polizei"
   },
@@ -3313,7 +3313,7 @@
   {
     "id": "MYK",
     "stateId": "RP",
-    "origin": "Mayen, koblenz",
+    "origin": "Mayen, Koblenz",
     "name": "Landkreis Mayen-Koblenz",
     "name_extra": ""
   },
@@ -3390,7 +3390,7 @@
   {
     "id": "ND",
     "stateId": "BY",
-    "origin": "Neuburg an der donau",
+    "origin": "Neuburg an der Donau",
     "name": "Landkreis Neuburg-Schrobenhausen",
     "name_extra": ""
   },
@@ -3411,7 +3411,7 @@
   {
     "id": "NEA",
     "stateId": "BY",
-    "origin": "Neustadt an der aisch",
+    "origin": "Neustadt an der Aisch",
     "name": "Landkreis Neustadt an der Aisch-Bad Windsheim",
     "name_extra": ""
   },
@@ -3425,14 +3425,14 @@
   {
     "id": "NEC",
     "stateId": "BY",
-    "origin": "Neustadt bei coburg",
+    "origin": "Neustadt bei Coburg",
     "name": "Stadt Coburg",
     "name_extra": ""
   },
   {
     "id": "NEC",
     "stateId": "BY",
-    "origin": "Neustadt bei coburg",
+    "origin": "Neustadt bei Coburg",
     "name": "Landkreis Coburg",
     "name_extra": ""
   },
@@ -3446,14 +3446,14 @@
   {
     "id": "NES",
     "stateId": "BY",
-    "origin": "Neustadt an der saale",
+    "origin": "Neustadt an der Saale",
     "name": "Landkreis Rhön-Grabfeld",
     "name_extra": ""
   },
   {
     "id": "NEW",
     "stateId": "BY",
-    "origin": "Neustadt an der waldnaab",
+    "origin": "Neustadt an der Waldnaab",
     "name": "Landkreis Neustadt an der Waldnaab",
     "name_extra": ""
   },
@@ -3488,7 +3488,7 @@
   {
     "id": "NL",
     "stateId": "NI",
-    "origin": "Niedersächsischer landtag",
+    "origin": "Niedersächsischer Landtag",
     "name": "Niedersachsen",
     "name_extra": "Landesregierung und Landtag"
   },
@@ -3530,7 +3530,7 @@
   {
     "id": "NOL",
     "stateId": "SN",
-    "origin": "Niederschlesische oberlausitz",
+    "origin": "Niederschlesische Oberlausitz",
     "name": "Landkreis Görlitz",
     "name_extra": ""
   },
@@ -3558,14 +3558,14 @@
   {
     "id": "NR",
     "stateId": "RP",
-    "origin": "Neuwied am rhein",
+    "origin": "Neuwied am Rhein",
     "name": "Landkreis Neuwied",
     "name_extra": ""
   },
   {
     "id": "NRW",
     "stateId": "NW",
-    "origin": "Nordrhein-westfalen",
+    "origin": "Nordrhein-Westfalen",
     "name": "Nordrhein-Westfalen",
     "name_extra": "Landesregierung, Landtag und Polizei"
   },
@@ -3579,7 +3579,7 @@
   {
     "id": "NU",
     "stateId": "BY",
-    "origin": "Neu-ulm",
+    "origin": "Neu-Ulm",
     "name": "Landkreis Neu-Ulm",
     "name_extra": ""
   },
@@ -3593,7 +3593,7 @@
   {
     "id": "NW",
     "stateId": "RP",
-    "origin": "Neustadt an der weinstraße",
+    "origin": "Neustadt an der Weinstraße",
     "name": "Stadt Neustadt an der Weinstraße",
     "name_extra": ""
   },
@@ -3712,7 +3712,7 @@
   {
     "id": "OHA",
     "stateId": "NI",
-    "origin": "Osterode am harz",
+    "origin": "Osterode am Harz",
     "name": "Landkreis Göttingen",
     "name_extra": ""
   },
@@ -3768,7 +3768,7 @@
   {
     "id": "OPR",
     "stateId": "BB",
-    "origin": "Ostprignitz, ruppin",
+    "origin": "Ostprignitz, Ruppin",
     "name": "Landkreis Ostprignitz-Ruppin",
     "name_extra": ""
   },
@@ -3789,7 +3789,7 @@
   {
     "id": "OSL",
     "stateId": "BB",
-    "origin": "Oberspreewald, lausitz",
+    "origin": "Oberspreewald, Lausitz",
     "name": "Landkreis Oberspreewald-Lausitz",
     "name_extra": ""
   },
@@ -3950,7 +3950,7 @@
   {
     "id": "PM",
     "stateId": "BB",
-    "origin": "Potsdam, mittelmark",
+    "origin": "Potsdam, Mittelmark",
     "name": "Landkreis Potsdam-Mittelmark",
     "name_extra": ""
   },
@@ -4055,7 +4055,7 @@
   {
     "id": "RDG",
     "stateId": "MV",
-    "origin": "Ribnitz-damgarten",
+    "origin": "Ribnitz-Damgarten",
     "name": "Landkreis Vorpommern-Rügen",
     "name_extra": "ohne die Stadt Stralsund"
   },
@@ -4090,14 +4090,14 @@
   {
     "id": "REI",
     "stateId": "BY",
-    "origin": "Bad reichenhall",
+    "origin": "Bad Reichenhall",
     "name": "Landkreis Berchtesgadener Land",
     "name_extra": ""
   },
   {
     "id": "RG",
     "stateId": "SN",
-    "origin": "Riesa, großenhain",
+    "origin": "Riesa, Großenhain",
     "name": "Landkreis Meißen",
     "name_extra": ""
   },
@@ -4181,7 +4181,7 @@
   {
     "id": "ROF",
     "stateId": "HE",
-    "origin": "Rotenburg an der fulda",
+    "origin": "Rotenburg an der Fulda",
     "name": "Landkreis Hersfeld-Rotenburg",
     "name_extra": ""
   },
@@ -4195,14 +4195,14 @@
   {
     "id": "ROL",
     "stateId": "BY",
-    "origin": "Rottenburg an der laaber",
+    "origin": "Rottenburg an der Laaber",
     "name": "Landkreis Kelheim",
     "name_extra": ""
   },
   {
     "id": "ROL",
     "stateId": "BY",
-    "origin": "Rottenburg an der laaber",
+    "origin": "Rottenburg an der Laaber",
     "name": "Landkreis Landshut",
     "name_extra": ""
   },
@@ -4216,7 +4216,7 @@
   {
     "id": "ROT",
     "stateId": "BY",
-    "origin": "Rothenburg ob der tauber",
+    "origin": "Rothenburg ob der Tauber",
     "name": "Landkreis Ansbach",
     "name_extra": ""
   },
@@ -4230,14 +4230,14 @@
   {
     "id": "RP",
     "stateId": "RP",
-    "origin": "Rhein-pfalz",
+    "origin": "Rhein-Pfalz",
     "name": "Rhein-Pfalz-Kreis",
     "name_extra": ""
   },
   {
     "id": "RPL",
     "stateId": "RP",
-    "origin": "Rheinland-pfälzischer landtag",
+    "origin": "Rheinland-Pfälzischer Landtag",
     "name": "Rheinland-Pfalz",
     "name_extra": "Landesregierung, Landtag und Polizei"
   },
@@ -4328,7 +4328,7 @@
   {
     "id": "SAL",
     "stateId": "SL",
-    "origin": "Saarländischer landtag",
+    "origin": "Saarländischer Landtag",
     "name": "Saarland",
     "name_extra": "Landesregierung, Landtag und Polizei"
   },
@@ -4482,14 +4482,14 @@
   {
     "id": "SH",
     "stateId": "SH",
-    "origin": "Schleswig-holstein",
+    "origin": "Schleswig-Holstein",
     "name": "Schleswig-Holstein",
     "name_extra": "Landesregierung, Landtag und Polizei"
   },
   {
     "id": "SHA",
     "stateId": "BW",
-    "origin": "Schwäbisch hall",
+    "origin": "Schwäbisch Hall",
     "name": "Landkreis Schwäbisch Hall",
     "name_extra": ""
   },
@@ -4503,7 +4503,7 @@
   {
     "id": "SHK",
     "stateId": "TH",
-    "origin": "Saale-holzland-kreis",
+    "origin": "Saale-Holzland-Kreis",
     "name": "Saale-Holzland-Kreis",
     "name_extra": ""
   },
@@ -4650,7 +4650,7 @@
   {
     "id": "SOK",
     "stateId": "TH",
-    "origin": "Saale-orla-kreis",
+    "origin": "Saale-Orla-Kreis",
     "name": "Saale-Orla-Kreis",
     "name_extra": ""
   },
@@ -4685,7 +4685,7 @@
   {
     "id": "SPN",
     "stateId": "BB",
-    "origin": "Spree, neiße",
+    "origin": "Spree, Neiße",
     "name": "Landkreis Spree-Neiße",
     "name_extra": ""
   },
@@ -4776,7 +4776,7 @@
   {
     "id": "SÜW",
     "stateId": "RP",
-    "origin": "Südliche weinstraße",
+    "origin": "Südliche Weinstraße",
     "name": "Landkreis Südliche Weinstraße",
     "name_extra": ""
   },
@@ -4832,7 +4832,7 @@
   {
     "id": "TDO",
     "stateId": "SN",
-    "origin": "Torgau, delitzsch, oschatz",
+    "origin": "Torgau, Delitzsch, Oschatz",
     "name": "Landkreis Nordsachsen",
     "name_extra": ""
   },
@@ -4853,7 +4853,7 @@
   {
     "id": "TF",
     "stateId": "BB",
-    "origin": "Teltow, fläming",
+    "origin": "Teltow, Fläming",
     "name": "Landkreis Teltow-Fläming",
     "name_extra": ""
   },
@@ -4867,14 +4867,14 @@
   {
     "id": "THL",
     "stateId": "TH",
-    "origin": "Thüringer landtag",
+    "origin": "Thüringer Landtag",
     "name": "Thüringen",
     "name_extra": "Landesregierung und Landtag"
   },
   {
     "id": "THW",
     "stateId": "BD",
-    "origin": "Technisches hilfswerk",
+    "origin": "Technisches Hilfswerk",
     "name": "Bundesanstalt Technisches Hilfswerk",
     "name_extra": ""
   },
@@ -4888,14 +4888,14 @@
   {
     "id": "TO",
     "stateId": "SN",
-    "origin": "Torgau, oschatz",
+    "origin": "Torgau, Oschatz",
     "name": "Landkreis Nordsachsen",
     "name_extra": ""
   },
   {
     "id": "TÖL",
     "stateId": "BY",
-    "origin": "Bad tölz",
+    "origin": "Bad Tölz",
     "name": "Landkreis Bad Tölz-Wolfratshausen",
     "name_extra": ""
   },
@@ -4965,7 +4965,7 @@
   {
     "id": "UH",
     "stateId": "TH",
-    "origin": "Unstrut, hainich",
+    "origin": "Unstrut, Hainich",
     "name": "Unstrut-Hainich-Kreis",
     "name_extra": ""
   },
@@ -5042,7 +5042,7 @@
   {
     "id": "VG",
     "stateId": "MV",
-    "origin": "Vorpommern, greifswald",
+    "origin": "Vorpommern, Greifswald",
     "name": "Landkreis Vorpommern-Greifswald",
     "name_extra": "ohne die Stadt Greifswald"
   },
@@ -5057,7 +5057,7 @@
     "id": "VIB",
     "stateId": "BY",
     "origin": "Vilsbiburg",
-    "name": "Landkreis Mühldorf a.Inn",
+    "name": "Landkreis Mühldorf am Inn",
     "name_extra": ""
   },
   {
@@ -5098,14 +5098,14 @@
   {
     "id": "VR",
     "stateId": "MV",
-    "origin": "Vorpommern, rügen",
+    "origin": "Vorpommern, Rügen",
     "name": "Landkreis Vorpommern-Rügen",
     "name_extra": "ohne die Stadt Stralsund"
   },
   {
     "id": "VS",
     "stateId": "BW",
-    "origin": "Villingen-schwenningen",
+    "origin": "Villingen-Schwenningen",
     "name": "Schwarzwald-Baar-Kreis",
     "name_extra": ""
   },
@@ -5393,7 +5393,7 @@
     "id": "WS",
     "stateId": "BY",
     "origin": "Wasserburg",
-    "name": "Landkreis Mühldorf a.Inn",
+    "name": "Landkreis Mühldorf am Inn",
     "name_extra": ""
   },
   {
@@ -5511,15 +5511,15 @@
   {
     "id": "X",
     "stateId": "BD",
-    "origin": "Willkürlich gewählt",
-    "name": "Internationale Hauptquartiere (NATO)",
+    "origin": "NATO (Internationale Hauptquartiere)",
+    "name": "(willkürlich gewählt)",
     "name_extra": ""
   },
   {
     "id": "Y",
     "stateId": "BD",
-    "origin": "Willkürlich gewählt",
-    "name": "Bundeswehr",
+    "origin": "Bundeswehr",
+    "name": "(willkürlich gewählt)",
     "name_extra": ""
   },
   {

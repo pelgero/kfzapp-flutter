@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 
 void main() => runApp(MyApp());
@@ -9,11 +10,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'KFZ Kennzeichen App',
+      title: 'KFZ App',
       theme: ThemeData(
         primarySwatch: Colors.grey,
       ),
-      home: MyHomePage(title: 'KFZAPP'),
+      home: MyHomePage(title: 'KFZApp'),
     );
   }
 }
@@ -81,27 +82,79 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text(widget.title),
-      ),
-      body: Center(
-        child: Column(
-          children: <Widget>[
-            Expanded(
-              child: buildContent(this.currentPlates),
+        appBar: AppBar(
+          centerTitle: true,
+          title: Text(widget.title),
+        ),
+        body: SingleChildScrollView(
+          child: Center(
+            child: Column(
+              children: <Widget>[
+                buildContent(this.currentPlates),
+              ],
             ),
-          ],
+          ),
+        ));
+  }
+
+  Widget buildPlateWidget(PlateView plate) {
+    return Container(
+        child: Column(children: <Widget>[
+      Text(plate.name,
+          textAlign: TextAlign.center,
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
+      SizedBox(height: 2),
+      Text(
+        plate.state,
+        textAlign: TextAlign.center,
+        style: TextStyle(
+          fontSize: 12,
         ),
       ),
-    );
+      SizedBox(height: 2),
+      Text(
+        plate.region,
+        style: TextStyle(fontSize: 12),
+        textAlign: TextAlign.center,
+      ),
+      SizedBox(height: 10),
+    ]));
+  }
+
+  String nameWithExtra(Plate plate) {
+    return plate.extra.length == 0
+        ? plate.name
+        : '${plate.name} (${plate.extra})';
+  }
+
+  List<PlateView> toPlateView(List<Plate> plates) {
+    Map<String, PlateView> combined = {};
+    for (Plate plate in plates) {
+      PlateView view = PlateView(
+          plate.origin, nameWithExtra(plate), _findRegion(plate.stateId));
+      if (!combined.containsKey(plate.origin)) {
+        combined.putIfAbsent(plate.origin, () => view);
+      } else {
+        combined.update(plate.origin, (existing) {
+          existing.region += ', ${view.region}';
+          if (existing.state != view.state) {
+            existing.state += ', ${view.state}';
+          }
+          return existing;
+        });
+      }
+    }
+
+    return List<PlateView>.from(combined.values);
+  }
+
+  List<Widget> buildPlatesWidget(List<Plate> plates) {
+    return List<Widget>.from(toPlateView(plates).map((plate) {
+      return buildPlateWidget(plate);
+    }));
   }
 
   Widget buildContent(List<Plate> plates) {
-    String text = currentPlates.map((plate) {
-      return '${plate.origin} (${plate.name}, ${_findRegion(plate.stateId)})';
-    }).join("\n");
-
     return Container(
       margin: const EdgeInsets.all(50.0),
       child: Column(
@@ -124,16 +177,20 @@ class _MyHomePageState extends State<MyHomePage> {
                   this._changePlateId(value.toUpperCase());
                 },
               )),
-          SizedBox(height: 20),
-          Text(
-            text,
-            textAlign: TextAlign.center,
-            style: TextStyle(fontSize: text.length > 25 ? 17 : 20),
-          )
+          SizedBox(height: 14),
+          Column(children: buildPlatesWidget(currentPlates))
         ],
       ),
     );
   }
+}
+
+class PlateView {
+  final String name;
+  String region;
+  String state;
+
+  PlateView(this.name, this.region, this.state);
 }
 
 class Plate {
