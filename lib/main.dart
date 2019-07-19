@@ -41,21 +41,10 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _changePlateId(String plateId) {
-    print("Change $plateId");
     setState(() {
-      this.currentPlates = _findPlates(plateId);
-      print("plates: ");
-      print(this.currentPlates);
+      this.currentPlates =
+          this.plates.where((plate) => plate.id == plateId).toList();
     });
-  }
-
-  List<Plate> _findPlates(String plateId) {
-    return this.plates.where((plate) => plate.id == plateId).toList();
-  }
-
-  String _findRegion(String stateKy) {
-    String state = states[stateKy];
-    return state != null ? state : "";
   }
 
   void _loadPlates(String asset) {
@@ -97,9 +86,50 @@ class _MyHomePageState extends State<MyHomePage> {
         ));
   }
 
-  Widget buildPlateWidget(PlateView plate) {
+  Widget buildContent(List<Plate> plates) {
     return Container(
-        child: Column(children: <Widget>[
+      margin: const EdgeInsets.all(50.0),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: <Widget>[
+          buildInputField(),
+          SizedBox(height: 14),
+          buildResult()
+        ],
+      ),
+    );
+  }
+
+  Widget buildInputField() {
+    return Container(
+        width: 100,
+        child: TextField(
+          autofocus: true,
+          maxLength: 3,
+          decoration: InputDecoration(
+              labelText: 'Kennzeichen',
+              labelStyle: TextStyle(fontSize: 13),
+              border: OutlineInputBorder(),
+              counterText: ""),
+          textCapitalization: TextCapitalization.characters,
+          textAlign: TextAlign.center,
+          style: TextStyle(decoration: TextDecoration.none, fontSize: 30),
+          onChanged: (value) {
+            this._changePlateId(value.toUpperCase());
+          },
+        ));
+  }
+
+  Widget buildResult() {
+    List<PlateView> plateViews =
+        PlateView.fromAll(this.currentPlates, this.states);
+    return Column(
+        children: List<Widget>.from(
+            plateViews.map((plate) => buildPlateViewWidget(plate))));
+  }
+
+  Widget buildPlateViewWidget(PlateView plate) {
+    return Column(children: <Widget>[
       Text(plate.name,
           textAlign: TextAlign.center,
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20)),
@@ -107,9 +137,7 @@ class _MyHomePageState extends State<MyHomePage> {
       Text(
         plate.state,
         textAlign: TextAlign.center,
-        style: TextStyle(
-          fontSize: 12,
-        ),
+        style: TextStyle(fontSize: 12),
       ),
       SizedBox(height: 2),
       Text(
@@ -118,20 +146,44 @@ class _MyHomePageState extends State<MyHomePage> {
         textAlign: TextAlign.center,
       ),
       SizedBox(height: 10),
-    ]));
+    ]);
   }
+}
 
-  String nameWithExtra(Plate plate) {
-    return plate.extra.length == 0
-        ? plate.name
-        : '${plate.name} (${plate.extra})';
+class Plate {
+  final String id;
+  final String stateId;
+  final String origin;
+  final String name;
+  final String extra;
+
+  Plate(this.id, this.stateId, this.origin, this.name, this.extra);
+  Plate.from(Map<String, dynamic> json)
+      : this(json["id"], json["stateId"], json["origin"], json["name"],
+            json["name_extra"]);
+
+  String nameWithExtra() => extra.length == 0 ? name : '$name ($extra)';
+
+  @override
+  String toString() {
+    return '$id: $origin ($name)';
   }
+}
 
-  List<PlateView> toPlateView(List<Plate> plates) {
+class PlateView {
+  final String name;
+  String region;
+  String state;
+
+  PlateView(this.name, this.region, this.state);
+  PlateView.from(Plate plate, String state)
+      : this(plate.origin, plate.nameWithExtra(), state);
+
+  static List<PlateView> fromAll(
+      List<Plate> plates, Map<String, String> states) {
     Map<String, PlateView> combined = {};
     for (Plate plate in plates) {
-      PlateView view = PlateView(
-          plate.origin, nameWithExtra(plate), _findRegion(plate.stateId));
+      PlateView view = PlateView.from(plate, _findByKey(plate.stateId, states));
       if (!combined.containsKey(plate.origin)) {
         combined.putIfAbsent(plate.origin, () => view);
       } else {
@@ -148,65 +200,8 @@ class _MyHomePageState extends State<MyHomePage> {
     return List<PlateView>.from(combined.values);
   }
 
-  List<Widget> buildPlatesWidget(List<Plate> plates) {
-    return List<Widget>.from(toPlateView(plates).map((plate) {
-      return buildPlateWidget(plate);
-    }));
-  }
-
-  Widget buildContent(List<Plate> plates) {
-    return Container(
-      margin: const EdgeInsets.all(50.0),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.start,
-        children: <Widget>[
-          Container(
-              width: 100,
-              child: TextField(
-                autofocus: true,
-                maxLength: 3,
-                decoration: InputDecoration(
-                    labelText: 'Kennzeichen',
-                    labelStyle: TextStyle(fontSize: 13),
-                    border: OutlineInputBorder(),
-                    counterText: ""),
-                textCapitalization: TextCapitalization.characters,
-                textAlign: TextAlign.center,
-                style: TextStyle(decoration: TextDecoration.none, fontSize: 30),
-                onChanged: (value) {
-                  this._changePlateId(value.toUpperCase());
-                },
-              )),
-          SizedBox(height: 14),
-          Column(children: buildPlatesWidget(currentPlates))
-        ],
-      ),
-    );
-  }
-}
-
-class PlateView {
-  final String name;
-  String region;
-  String state;
-
-  PlateView(this.name, this.region, this.state);
-}
-
-class Plate {
-  final String id;
-  final String stateId;
-  final String origin;
-  final String name;
-  final String extra;
-
-  Plate(this.id, this.stateId, this.origin, this.name, this.extra);
-  Plate.from(Map<String, dynamic> json)
-      : this(json["id"], json["stateId"], json["origin"], json["name"],
-            json["name_extra"]);
-
-  @override
-  String toString() {
-    return '$id: $origin ($name)';
+  static String _findByKey(String stateKey, Map<String, String> map) {
+    String value = map[stateKey];
+    return value != null ? value : "";
   }
 }
