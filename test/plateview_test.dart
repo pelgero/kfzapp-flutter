@@ -66,4 +66,22 @@ void main() {
     expect(views[1].region, equals("Kreis Rostock"));
     expect(views[1].state, equals("Mecklenburg-Vorpommern"));
   });
+
+  test(
+      "PlateView.fromAll combines fields for plates with same id and same state and different origin",
+      () {
+    List<PlateView> views = PlateView.fromAll([
+      Plate("RO", "BY", "Rosenheim", "Stadt Rosenheim", ""),
+      Plate("RO", "BY", "Rosenheim", "Landkreis Rosenheim", ""),
+      Plate("RO", "MV", "Rosenheim", "Kreis Rostock", "")
+    ], {
+      "BY": "Bayern",
+      "MV": "Mecklenburg-Vorpommern"
+    });
+    expect(views.length, equals(1));
+    expect(views[0].name, equals("Rosenheim"));
+    expect(views[0].region,
+        equals("Stadt Rosenheim, Landkreis Rosenheim, Kreis Rostock"));
+    expect(views[0].state, equals("Bayern, Mecklenburg-Vorpommern"));
+  });
 }
